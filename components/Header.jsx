@@ -136,7 +136,7 @@ const Header = () => {
               <Link
                 href={link.link}
                 onClick={() => clickHandler(`${link.name}`)}
-                className={`${router === link.link
+                className={`${router.includes(link.link)
                   ? " text-purple-400 font-semibold "
                   : " text-gray-700 dark:text-white "
                   } hover:text-purple-500 dark:hover:text-purple-500 duration-500`}

@@ -1,16 +1,67 @@
-/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
+import { useTheme } from "next-themes";
+import { useRouter } from "next/router";
 
 export default function Index() {
+  const { systemTheme, theme, setTheme } = useTheme();
+  const router = useRouter()
+  const shackEquipment = [
+    {
+      name: 'HF',
+      description: "My HF setup, featuring ICOM IC-706 MK2G, IC-718, and IC-700 transceivers, is the core of my shack. Enhanced by Digiface Pro, it excels in long-distance DX contacts and amateur radio contests",
+      link: 'hf'
+    },
+    {
+      name: 'VHF/UHF',
+      description: "Resulting from years of refinement, my VHF/UHF gear includes KENWOOD TMV-71V and MMDVM transceivers. It excels in local communication, satellite tracking, and VHF/UHF contests.",
+      link: 'vhf-uhf'
+    },
+    {
+      name: 'Satellite',
+      description: 'My satellite setup comprises specialized tracking software, high-gain antennas, and a dedicated transceiver, enabling communication with amateur radio satellites and the ISS.',
+      link: 'satellite'
+    },
+    {
+      name: 'APRS',
+      description: "My APRS setup includes a custom station with a TNC, GPS unit, and VHF transceiver. It's vital for real-time location-based data sharing within the amateur radio community.",
+      link: 'aprs'
+    },
+    {
+      name: 'Antenna',
+      description: "The antenna system, carefully tuned and optimized, is a key component. It maximizes signal performance, enabling successful communication across specific frequency bands and modes.",
+      link: 'antenna'
+    }
+  ];
+
 
 
   return (
-    <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
+    <div className="px-1 sm:px-2 md:px-3 lg:mb-2 lg:px-6 mx-auto max-w-[90%]">
       <Head>
         <title>shack ✦ VU2RCY </title>
         <link rel="icon" href="./logo.png" />
       </Head>
-      <main className="  max-w-screen ">
+      <main className="max-w-screen">
+        <div className=" pt-24 container mx-auto p-4">
+
+          <h1 className="text-center selection:text-black/40 dark:selection:text-white/40 font-deca bg-gradient-to-tr from-purple-200 via-purple-400 to-purple-800 bg-clip-text text-transparent items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">Shack Equipment</h1>
+          <div className="mt-8 flex flex-wrap justify-center">
+            {shackEquipment.map((equipment, index) => (
+              <div key={index} className={`cursor-pointer duration-100 hover:shadow-2xl mb-4 flex-col-6 drop-shadow-xl flex flex-col space-y-4 mx-6 md:mx-4 lg:mx-4 md:w-[45%] lg:w-[45%] max-w-[400px] rounded-[1.4rem]  p-4 ${theme != 'light' ? "bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 via-purple-900 to-violet-600" : "bg-gradient-to-bl from-pink-200 via-indigo-300 to-purple-200 "}`}
+                onClick={() => {
+                  router.push(`shack/${equipment.link}`)
+                }}
+              >
+                <article >
+                  <h2 className="mx-auto text-center font-deca font-bold text-2xl dark:text-purple-500 text-white">{equipment.name}</h2>
+                  <p className="font-normal sm:text-[0.95rem] md:text-base text-center">{equipment.description}</p>
+                </article>
+
+
+              </div>
+            ))}
+          </div>
+        </div>
 
       </main>
     </div>

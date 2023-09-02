@@ -8,22 +8,16 @@ export default function Document() {
       lang="en"
     >
       <Head>
-        <title>Ram ✦ Ham radio enthusiast</title>
+        {/* <title>Ram ✦ Ham radio enthusiast</title> */}
         <meta name="title" content="Ram ✦ Ham radio enthusiast" />
         <meta name="description" content="Ham Radio Enthusiast" />
 
         {/* <!-- Open Graph / Facebook --> */}
-        {/* <meta property="og:type" content="website" />
-        <meta property="og:url" content="" />
-        <meta property="og:title" content="" />
-        <meta
-          property="og:description"
-          content="Developer // Designer // Weeb"
-        />
-        <meta
-          property="og:image"
-          content=""
-        /> */}
+        <meta property="og:type" content="website" />
+        {/* <meta property="og:url" content="https://your-website-url.com" /> */}
+        <meta property="og:title" content="VU2RCY" />
+        <meta property="og:description" content="Dedicated ham radio enthusiast" />
+        {/* <meta property="og:image" content="https://your-website-url.com/your-image.jpg" /> */}
 
         {/* <!-- Twitter --> */}
         {/* <meta property="twitter:card" content="summary_large_image" />

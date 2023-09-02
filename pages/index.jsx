@@ -48,10 +48,9 @@ export default function Home() {
           <div className="mt-12 m:text-xl md:text-xl lg:text-2xl">
             <p className="font-light sm:leading-6 md:leading-6 lg:leading-8">
               I am a devoted ham radio operator from
-              <span className="font-medium select-none animate-text bg-gradient-to-br from-[#ff911b] dark:from-[#ff8400] via-[#fff4f4] dark:via-[#fff] dark:text-black  text-border2 to-[#43ff36] dark:to-[#12ff02] rounded px-2 py-[0.05rem] ">
+              <span className="mx-2 font-medium select-none animate-text bg-gradient-to-br from-[#ff911b] dark:from-[#ff8400] via-[#fff4f4] dark:via-[#fff] dark:text-black  text-border2 to-[#43ff36] dark:to-[#12ff02] rounded px-2 py-[0.05rem] ">
                 INDIA
               </span>,
-
               embracing cutting-edge technologies in amateur radio since 1988. From VU3MGR to VU2RCY, my journey evolved, exploring various bands, modes, and satellite communication. Ham radio unites a global community with shared passion and curiosity.            </p>
           </div>
         </div>
