@@ -8,49 +8,31 @@ export default function Document() {
       lang="en"
     >
       <Head>
-        {/* <title>Ram ✦ Ham radio enthusiast</title> */}
+        {/* <!-- Primary Meta Tags --> */}
+        <title>VU2RCY</title>
         <meta name="title" content="Ram ✦ Ham radio enthusiast" />
         <meta name="description" content="Ham Radio Enthusiast" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        {/* <meta property="og:url" content="https://your-website-url.com" /> */}
+        <meta property="og:url" content="https://vu2rcy.vercel.app" />
         <meta property="og:title" content="VU2RCY" />
         <meta property="og:description" content="Dedicated ham radio enthusiast" />
-        {/* <meta property="og:image" content="https://your-website-url.com/your-image.jpg" /> */}
+        <meta property="og:image" content="https://vu2rcy.vercel.app/Banner.png" />
 
         {/* <!-- Twitter --> */}
-        {/* <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content=""
-        />
-        <meta
-          property="twitter:title"
-          content=""
-        />
-        <meta
-          property="twitter:description"
-          content="Developer // Designer // Weeb"
-        />
-        <meta
-          property="twitter:image"
-          content=""
-        /> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://vu2rcy.vercel.app" />
+        <meta property="twitter:title" content="VU2RCY" />
+        <meta property="twitter:description" content="Dedicated ham radio enthusiast" />
+        <meta property="twitter:image" content="https://vu2rcy.vercel.app/Banner.png" />
 
         {/* whatsapp */}
-        {/* <meta property="og:site_name" content="" />
-        <meta property="og:title" content="" />
-        <meta
-          property="og:description"
-          content="Developer // Designer // Weeb"
-        />
-        <meta
-          property="og:image"
-          itemprop="image"
-          content=""
-        />
-        <meta property="og:type" content="website" /> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="VU2RCY" />
+        <meta property="og:description" content="Dedicated ham radio enthusiast" />
+        <meta property="og:image" itemprop="image" content="https://vu2rcy.vercel.app/Banner.png" />
+
 
         {/* canonical links */}
         <link rel="canonical" href="" />
