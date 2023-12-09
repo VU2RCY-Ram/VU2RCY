@@ -22,19 +22,9 @@ export default function Home() {
           <Blob />
           <div className="flex flex-row justify-start items-center mt-20">
             {currentTheme === "dark" ? (
-              <Image
-                src={Avatar_White}
-                alt="vu2rcy"
-                width="100"
-                height="100"
-              />
+              <Image src={Avatar_White} alt="vu2rcy" width="100" height="100" />
             ) : (
-              <Image
-                src={Avatar_Black}
-                alt="vu2rcy"
-                width="100"
-                height="100"
-              />
+              <Image src={Avatar_Black} alt="vu2rcy" width="100" height="100" />
             )}
             <div className="flex flex-col ml-4">
               <h2 className="font-bold sm:text-2xl md:text-2xl lg:text-4xl">
@@ -50,8 +40,12 @@ export default function Home() {
               I am a devoted ham radio operator from
               <span className="mx-2 font-medium select-none animate-text bg-gradient-to-br from-[#ff911b] dark:from-[#ff8400] via-[#fff4f4] dark:via-[#fff] dark:text-black  text-border2 to-[#43ff36] dark:to-[#12ff02] rounded px-2 py-[0.05rem] ">
                 INDIA
-              </span>,
-              embracing cutting-edge technologies in amateur radio since 1988. From VU3MGR to VU2RCY, my journey evolved, exploring various bands, modes, and satellite communication. Ham radio unites a global community with shared passion and curiosity.            </p>
+              </span>
+              , embracing cutting-edge technologies in amateur radio since 1988.
+              From VU3MGR to VU2RCY, my journey evolved, exploring various
+              bands, modes, and satellite communication. Ham radio unites a
+              global community with shared passion and curiosity.{" "}
+            </p>
           </div>
         </div>
         <div className="mt-28 mx-auto">

@@ -5,7 +5,7 @@ import { ThemeProvider } from "next-themes";
 
 export default function App({ Component, pageProps }) {
   return (
-    <ThemeProvider defaultTheme='dark' enableSystem={true} attribute="class">
+    <ThemeProvider defaultTheme="dark" enableSystem={true} attribute="class">
       <main className="land relative z-10">
         <Header />
         <Component {...pageProps} />

@@ -17,22 +17,40 @@ export default function Document() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://vu2rcy.vercel.app" />
         <meta property="og:title" content="VU2RCY" />
-        <meta property="og:description" content="Dedicated ham radio enthusiast" />
-        <meta property="og:image" content="https://vu2rcy.vercel.app/Banner.png" />
+        <meta
+          property="og:description"
+          content="Dedicated ham radio enthusiast"
+        />
+        <meta
+          property="og:image"
+          content="https://vu2rcy.vercel.app/Banner.png"
+        />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://vu2rcy.vercel.app" />
         <meta property="twitter:title" content="VU2RCY" />
-        <meta property="twitter:description" content="Dedicated ham radio enthusiast" />
-        <meta property="twitter:image" content="https://vu2rcy.vercel.app/Banner.png" />
+        <meta
+          property="twitter:description"
+          content="Dedicated ham radio enthusiast"
+        />
+        <meta
+          property="twitter:image"
+          content="https://vu2rcy.vercel.app/Banner.png"
+        />
 
         {/* whatsapp */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="VU2RCY" />
-        <meta property="og:description" content="Dedicated ham radio enthusiast" />
-        <meta property="og:image" itemprop="image" content="https://vu2rcy.vercel.app/Banner.png" />
-
+        <meta
+          property="og:description"
+          content="Dedicated ham radio enthusiast"
+        />
+        <meta
+          property="og:image"
+          itemprop="image"
+          content="https://vu2rcy.vercel.app/Banner.png"
+        />
 
         {/* canonical links */}
         <link rel="canonical" href="" />

@@ -53,31 +53,63 @@ export default function MMDVM() {
             </div>
           </div> */}
           <div className="mx-auto flex flex-col">
-            <h3 className="mt-10 only:mb-12 font-deca bg-gradient-to-br bg-clip-text selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-sm md:text-sm lg:text-md xl:text-lg">Introduction:</h3>
+            <h3 className="mt-10 only:mb-12 font-deca bg-gradient-to-br bg-clip-text selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-sm md:text-sm lg:text-md xl:text-lg">
+              Introduction:
+            </h3>
             <p className="mt-2">
-              MMDVM (Multi-Mode Digital Voice Modem) is a groundbreaking technology that bridges the gap between diverse digital communication modes. As an avid Ham radio enthusiast, understanding how MMDVM is made, utilized, and its numerous benefits can greatly enhance your experience.
+              MMDVM (Multi-Mode Digital Voice Modem) is a groundbreaking
+              technology that bridges the gap between diverse digital
+              communication modes. As an avid Ham radio enthusiast,
+              understanding how MMDVM is made, utilized, and its numerous
+              benefits can greatly enhance your experience.
             </p>
             <h3 className="mt-10 only:mb-12 font-deca bg-gradient-to-br bg-clip-text selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-sm md:text-sm lg:text-md xl:text-lg">
               Making MMDVM:
             </h3>
             <p className="mt-2">
-              MMDVM is crafted by integrating hardware and software components, enabling compatibility with various digital radio protocols. Its core comprises microcontrollers, transceivers, and a firmware that facilitates seamless mode transitions.
+              MMDVM is crafted by integrating hardware and software components,
+              enabling compatibility with various digital radio protocols. Its
+              core comprises microcontrollers, transceivers, and a firmware that
+              facilitates seamless mode transitions.
             </p>
             <h3 className="mt-10 only:mb-12 font-deca bg-gradient-to-br bg-clip-text selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-sm md:text-sm lg:text-md xl:text-lg">
               Benefits of MMDVM:
             </h3>
             <ul className="list-disc pl-6 mt-2">
-              <li>Interoperability: MMDVM breaks down protocol barriers, fostering communication among enthusiasts using different modes and networks.</li>
-              <li>Coverage Expansion: By linking various repeaters and networks, MMDVM extends communication range, overcoming geographical limitations.</li>
-              <li>Innovation Hub: Hams can experiment with different modes and protocols, pushing the boundaries of digital communication.</li>
-              <li>Community Growth: MMDVM connects enthusiasts globally, facilitating knowledge sharing, skill development, and idea exchange.</li>
-              <li>Adaptability: As new modes emerge, MMDVM can be updated to accommodate the latest advancements, ensuring long-term relevance.</li>
+              <li>
+                Interoperability: MMDVM breaks down protocol barriers, fostering
+                communication among enthusiasts using different modes and
+                networks.
+              </li>
+              <li>
+                Coverage Expansion: By linking various repeaters and networks,
+                MMDVM extends communication range, overcoming geographical
+                limitations.
+              </li>
+              <li>
+                Innovation Hub: Hams can experiment with different modes and
+                protocols, pushing the boundaries of digital communication.
+              </li>
+              <li>
+                Community Growth: MMDVM connects enthusiasts globally,
+                facilitating knowledge sharing, skill development, and idea
+                exchange.
+              </li>
+              <li>
+                Adaptability: As new modes emerge, MMDVM can be updated to
+                accommodate the latest advancements, ensuring long-term
+                relevance.
+              </li>
             </ul>
             <h3 className="mt-10 only:mb-12 font-deca bg-gradient-to-br bg-clip-text selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-sm md:text-sm lg:text-md xl:text-lg">
               In Conclusion:
             </h3>
             <p className="mt-2">
-              Embracing MMDVM technology amplifies the Ham radio experience. Seamlessly integrating various modes, MMDVM's innovative design and immense benefits open new horizons for global communication, learning, and camaraderie. Explore its potential, enhance your skills, and contribute to the vibrant Ham radio community.
+              Embracing MMDVM technology amplifies the Ham radio experience.
+              Seamlessly integrating various modes, MMDVM's innovative design
+              and immense benefits open new horizons for global communication,
+              learning, and camaraderie. Explore its potential, enhance your
+              skills, and contribute to the vibrant Ham radio community.
             </p>
           </div>
 
