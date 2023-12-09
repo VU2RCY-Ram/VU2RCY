@@ -12,7 +12,7 @@ const Header = () => {
   let Links = [
     { name: "Work", link: "/work" },
     { name: "Shack", link: "/shack" },
-    { name: "R&D", link: "/tech" },
+    { name: "Homebrew", link: "/homebrew " },
     { name: "About", link: "/about" },
   ];
   const [isScrolled, setIsScrolled] = useState(false);

@@ -63,27 +63,25 @@ export default function About() {
             <p className="">
               If you share the same passion for Ham Radio or want to connect for tech discussions, feel free to reach out. <br />
               You can contact me via
-              <span className="text-red-700 font-bold">Email</span>
+              <span className="text-red-700 font-bold">{" Email "}</span>
               <a
                 onClick={() =>
-                  navigator.clipboard.writeText("ramachandran.ham@example.com")
+                  navigator.clipboard.writeText("vu2rcy+social@gmail.com")
                 }
-                className=" underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
-                href="mailto:ramachandran.ham@example.com"
+                className=" underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
+                href="mailto:vu2rcy+social@gmail.com"
               >
-
-                ramachandran.ham@example.com
+                {" vu2rcy "}
               </a>
               or connect on
-              <span className="text-blue-700 font-bold">Twitter</span>
+              <span className="text-blue-700 font-bold">{" Twitter "}</span>
               <a
-                href="http://twitter.com/hamradioRam"
+                href="https://twitter.com/vu2rcy"
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 rel="noopener noreferrer"
                 target="blank"
               >
-
-                @hamradioRam
+                {" @vu2rcy "}
               </a>
               for exciting discussions and updates.
             </p>

@@ -27,6 +27,16 @@ export default function Index() {
       link: 'aprs'
     },
     {
+      name: 'Digital Modes',
+      description: "Explore diverse digital modes in ham radio for projects, enhancing communication in my shack. From FT8 to PSK31, discover innovative ways to connect with the world.",
+      link: 'digitalMode'
+    },
+    {
+      name: 'My Projects',
+      description: "Embark on a journey of experimentation and creativity with various technologies and tools for general projects for my shack. Exploring new possibilities and bring ideas to life.",
+      link: 'projects'
+    },
+    {
       name: 'Antenna',
       description: "The antenna system, carefully tuned and optimized, is a key component. It maximizes signal performance, enabling successful communication across specific frequency bands and modes.",
       link: 'antenna'
