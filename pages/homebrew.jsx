@@ -6,10 +6,10 @@ import {
   HiOutlineArrowLongLeft,
   HiOutlineArrowLongRight,
 } from "react-icons/hi2";
-import Box from '@mui/material/Box';
+import Box from "@mui/material/Box";
 
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
+import ImageList from "@mui/material/ImageList";
+import ImageListItem from "@mui/material/ImageListItem";
 
 export default function Tech() {
   const data = [
@@ -108,7 +108,6 @@ export default function Tech() {
 
   useEffect(() => {
     console.clear();
-
   }, []);
 
   return (
@@ -123,7 +122,8 @@ export default function Tech() {
             Ham Radio
           </h2>
           <p className="mt-8 font-normal lg:text-lg text-center md:w-[70%] mx-auto text-base md:text-[1.15rem] ">
-            Embracing the world of ham radio, exploring frequencies, and connecting with fellow enthusiasts is a thrilling journey 📻🌐
+            Embracing the world of ham radio, exploring frequencies, and
+            connecting with fellow enthusiasts is a thrilling journey 📻🌐
           </p>
         </div>
         <div className="flex mx-auto justify-between mt-12 space-x-4 md:space-x-6 lg:space-x-auto items-center">
@@ -182,15 +182,15 @@ export default function Tech() {
                   //           sizes="(max-width: 768px) 100vw,
                   // (max-width: 1200px) 50vw,
                   // 33vw"
-                  onClick={() => { changeId(i) }}
+                  onClick={() => {
+                    changeId(i);
+                  }}
                 />
               </ImageListItem>
             );
           })}
         </ImageList>
         {/* </div> */}
-
-
 
         {/* <div className="mt-12 pb-12 grid grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 w-[80%] sm:w-[75%] md:w-[70%] mx-auto items-center justify-items-center justify-center place-content-center overflow-hidden">
           {data.map((obj, i) => {
@@ -207,7 +207,5 @@ export default function Tech() {
         </div> */}
       </main>
     </div>
-
   );
-};
-
+}

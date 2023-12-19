@@ -431,3 +431,17 @@
     }
   }
 }
+
+.dark-404
+{
+background-image: url('/404.gif');
+ filter: invert(1) blur(4px);
+  -webkit-filter: invert(1) blur(4px);
+}
+
+.light-404
+{
+background-image: url('/404.gif');
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}

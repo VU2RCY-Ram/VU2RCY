@@ -27,7 +27,9 @@ export default function Work() {
             Works
           </h2>
           <p className="mt-8 max-w-xl text-center md:w-[70%] mx-auto text-sm font-normal md:text-base lg:text-lg mb-2 ">
-            It has been an absolute pleasure to dedicate my heart and soul to Ham radio projects. Explore my accumulated knowledge and skills. Spread the passion. 💖
+            It has been an absolute pleasure to dedicate my heart and soul to
+            Ham radio projects. Explore my accumulated knowledge and skills.
+            Spread the passion. 💖
           </p>
           <div className="select-none flex justify-center space-x-4 items-center mt-2 text-gray-400">
             <svg

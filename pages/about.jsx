@@ -43,17 +43,17 @@ export default function About() {
             <div className="text-center mx-auto mt-8 z-20">
               <h3 className="mx-auto  font-bold text-lg lg:text-xl xl:text-2xl">
                 M G Ramachandran
-                <span className="inline-flex items-baseline">
-                </span>
+                <span className="inline-flex items-baseline"></span>
               </h3>
             </div>
           </div>
           <CategoryCard />
           <div className=" text-[0.92rem] md:text-base md:text-md lg:text-lg xl:text-xl mx-auto font-light dark:text-white text-gray-900 ">
             <p className="mt-6 mb-12 leading-10 font-normal">
-              A passionate Ham Radio enthusiast who loves exploring the world of radio communication and technology.
-              I believe in the magic of radio waves and the global connections they enable
-              Experienced in various radio protocols, propagation, and building radio setups.
+              A passionate Ham Radio enthusiast who loves exploring the world of
+              radio communication and technology. I believe in the magic of
+              radio waves and the global connections they enable Experienced in
+              various radio protocols, propagation, and building radio setups.
             </p>
 
             <p className="text-gray-400 select-none font-semibold mb-1 dark:text-white/30 ">
@@ -61,7 +61,8 @@ export default function About() {
             </p>
 
             <p className="">
-              If you share the same passion for Ham Radio or want to connect for tech discussions, feel free to reach out. <br />
+              If you share the same passion for Ham Radio or want to connect for
+              tech discussions, feel free to reach out. <br />
               You can contact me via
               <span className="text-red-700 font-bold">{" Email "}</span>
               <a

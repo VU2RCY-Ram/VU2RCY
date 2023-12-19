@@ -186,7 +186,6 @@ export default function Tech() {
 
   useEffect(() => {
     console.clear();
-
   }, []);
 
   return (
@@ -201,7 +200,8 @@ export default function Tech() {
             Ham Radio
           </h2>
           <p className="mt-8 font-normal lg:text-lg text-center md:w-[70%] mx-auto text-base md:text-[1.15rem] ">
-            Embracing the world of ham radio, exploring frequencies, and connecting with fellow enthusiasts is a thrilling journey 📻🌐
+            Embracing the world of ham radio, exploring frequencies, and
+            connecting with fellow enthusiasts is a thrilling journey 📻🌐
           </p>
         </div>
         <div className="flex mx-auto justify-between mt-12 space-x-4 md:space-x-6 lg:space-x-auto items-center">
@@ -261,7 +261,5 @@ export default function Tech() {
         </div>
       </main>
     </div>
-
   );
-};
-
+}
