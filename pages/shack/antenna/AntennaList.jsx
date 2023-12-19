@@ -147,7 +147,7 @@ const AntennaList = () => {
       },
     },
     {
-      imgSrc: "/antenna/slimjim.jpg",
+      imgSrc: "/antenna/slimjim2.jpg",
       name: "Slim Jim",
       description: "Slim jim antenna",
       materials: "copper",
