@@ -1,12 +1,11 @@
-/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import EquipmentsList from "./EquipmentsList";
 
 export default function Index() {
   return (
-    <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
+    <div className="px-8 sm:px-14 md:px-24 lg:px-30 lg:mb-12">
       <Head>
-        <title>Digital Modes ✦ VU2RCY </title>
+        <title>Equipments ✦ VU2RCY </title>
         <link rel="icon" href="./logo.png" />
       </Head>
       <main className="  max-w-screen ">
