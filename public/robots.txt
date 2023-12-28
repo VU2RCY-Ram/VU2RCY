@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://vu2rcy.vercel.app
+
+# Sitemaps
+Sitemap: https://vu2rcy.vercel.app/sitemap.xml
