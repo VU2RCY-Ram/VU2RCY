@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import { useRouter } from "next/router";
 import NotFound from "./404";
 
 const Home = () => {
@@ -22,13 +21,6 @@ const Home = () => {
         setLoading(false);
       });
   }, []);
-
-  useEffect(() => {
-    if (error) {
-      const router = useRouter();
-      router.push("404"); // Confirm that this is the correct path
-    }
-  }, [error]);
 
   return (
     <div>
