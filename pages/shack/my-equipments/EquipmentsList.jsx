@@ -8,13 +8,39 @@ const EquipmentsList = () => {
       imgSrc: "/my_equipments/13.8v35aPowerSuply.jpg",
       name: "Power Supply",
       description: "13.8V 35A Power Supply",
-      metrics: [],
+      metrics: [
+        {
+          displayName: "purpose",
+          description: "Power suply for rig",
+        },
+        {
+          displayName: "input Voltage",
+          description: "220V AC",
+        },
+        {
+          displayName: "output Voltage",
+          description: "13.8V 35A",
+        },
+      ],
     },
     {
       imgSrc: "/my_equipments/13.8vPowerSuply.jpg",
       name: "Power Supply",
-      description: "13.8V Power Supply",
-      metrics: [],
+      description: "Axiom 13.8V Power Supply",
+      metrics: [
+        {
+          displayName: "purpose",
+          description: "Power supply for rig",
+        },
+        {
+          displayName: "input Voltage",
+          description: "220V AC",
+        },
+        {
+          displayName: "output Voltage",
+          description: "13.8V 15A",
+        },
+      ],
     },
     {
       imgSrc: "/my_equipments/alincoDj-md5DmrVhf-uhfHandy.jpg",

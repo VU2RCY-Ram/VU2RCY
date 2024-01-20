@@ -7,8 +7,25 @@ const EquipmentsList = () => {
     {
       imgSrc: "/uhf_vhf/AlincoDrDm500.jpeg",
       name: "Alinco DR-DM500",
-      description: "Radio Equipment",
-      metrics: [],
+      description: "VHF and UHF",
+      metrics: [
+        {
+          displayName: "purpose",
+          description: "FM voice and DMR",
+        },
+        {
+          displayName: "VHF/UHF Antenna",
+          description: "vertical diamond 510X ",
+        },
+        {
+          displayName: "VHF Antenna",
+          description: "homebrew  element yagi",
+        },
+        {
+          displayName: "Power output",
+          description: "VHF : 50W, UHF : 25W ",
+        },
+      ],
     },
   ];
 

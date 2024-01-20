@@ -56,8 +56,10 @@ const EquipmentsCard = ({ data, cardBackground }) => {
               {data.metrics.map((ele, id) => {
                 return (
                   <div className="mb-4" key={id}>
-                    <span className="font-semibold">{ele.displayName}:</span>{" "}
-                    {ele.description}
+                    <span className="font-semibold capitalize">
+                      {ele.displayName} :
+                    </span>
+                    <span className="capitalize"> {ele.description}</span>
                   </div>
                 );
               })}
