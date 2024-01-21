@@ -1,5 +1,10 @@
 import classNames from "classnames";
 import { useEffect, useState } from "react";
+import { BsFillRewindFill } from "react-icons/bs";
+import { BsCaretLeftFill } from "react-icons/bs";
+import { BsThreeDots } from "react-icons/bs";
+import { BsFastForwardFill } from "react-icons/bs";
+import { BsCaretRightFill } from "react-icons/bs";
 
 export default function PageNums({ active, setActive, Pages }) {
   const SibblingCount = 1;
@@ -9,7 +14,6 @@ export default function PageNums({ active, setActive, Pages }) {
 
   useEffect(() => {
     // slice n push
-    console.log("some page thing");
     if (Pages.length <= 5) {
       setPaginationWithSibling(Pages);
     } else {
@@ -46,30 +50,31 @@ export default function PageNums({ active, setActive, Pages }) {
       <div className="flex items-center">
         <button
           disabled={active === 0}
-          className="p-3 py-2 bg-blue-900 rounded-md m-2 focus:outline-none "
+          className="p-3 py-2  rounded-md m-2 focus:outline-none "
           onClick={() => {
             setActive(0);
           }}
         >
-          <i className="bi bi-rewind"></i>
+          <BsFillRewindFill />
         </button>
         <button
           disabled={active === 0}
-          className="p-3 py-2 bg-blue-900 rounded-md focus:outline-none "
+          className="p-3 py-2  rounded-md focus:outline-none "
           onClick={() => {
             setActive(active - 1);
           }}
         >
-          <i className="bi bi-caret-left"></i>
+          <BsCaretLeftFill />
         </button>
         {paginationWithSibling.map((page, index) => {
           if (page === ".") {
-            return <i key={`${page}+${index}`} className="bi bi-three-dots" />;
+            return <BsThreeDots key={`${page}+${index}`} />;
           }
           if (typeof page === "number") {
             return (
               <button
                 key={`${page}+${index}`}
+                style={{ color: "white !important" }}
                 onClick={() => {
                   setActive(page);
                 }}
@@ -78,10 +83,11 @@ export default function PageNums({ active, setActive, Pages }) {
                   "rounded-md",
                   "cursor-pointer",
                   "p-3",
-                  "py-2",
-                  { "bg-amber-700": active !== page },
+                  "text-white",
+                  "py-1",
+                  { "bg-rose-800 text-white": active !== page },
                   "m-2",
-                  { "bg-zinc-950 text-red-600": active === page },
+                  { "bg-violet-900 text-white": active === page },
                 ])}
               >
                 {page + 1}
@@ -90,22 +96,22 @@ export default function PageNums({ active, setActive, Pages }) {
           }
         })}
         <button
-          className=" p-3 py-2 bg-blue-50 rounded-md focus:outline-none "
+          className=" p-3 py-2 rounded-md focus:outline-none "
           disabled={active === Pages[Pages.length - 1]}
           onClick={() => {
             setActive(active + 1);
           }}
         >
-          <i className="bi bi-caret-right"></i>
+          <BsCaretRightFill />
         </button>
         <button
-          className=" p-3 py-2 bg-blue-50 rounded-md m-2 focus:outline-none "
+          className=" p-3 py-2  rounded-md m-2 focus:outline-none "
           disabled={active === Pages[Pages.length - 1]}
           onClick={() => {
             setActive(Pages[Pages.length - 1]);
           }}
         >
-          <i className="bi bi-fast-forward"></i>
+          <BsFastForwardFill />
         </button>
       </div>
     </div>

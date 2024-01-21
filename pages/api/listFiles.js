@@ -6,12 +6,15 @@ export default async function handler(req, res) {
     const owner = 'VU2RCY-Ram';
     const repo = 'Awards';
     const path = 'EPC';
-
+const x = process.env.GITHUB_API_KEY
     // GitHub API endpoint
     const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
 
     // Fetch data from the GitHub API
-    const response = await fetch(apiUrl);
+    const response = await fetch(apiUrl,{
+  headers: {
+    Authorization: `token ${x}`,
+  }});
 
     if (!response.ok) {
       // Handle the case where the GitHub API request failed

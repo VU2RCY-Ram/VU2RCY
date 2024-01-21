@@ -8,30 +8,35 @@ const Home = () => {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(0);
-  const [totalPages, setTotalPages] = useState([1]);
+  const [totalPages, setTotalPages] = useState([]);
 
-  const pageSize = 50;
+  const pageSize = 15;
 
   useEffect(() => {
-    // Set your page and pageSize values
-    fetch(`/api/listFiles?page=${page + 1}&pageSize=${pageSize}`)
-      .then((response) => response.json())
-      .then((data) => {
+    const fetchData = async () => {
+      try {
+        // Set your page and pageSize values
+        const response = await fetch(
+          `/api/listFiles?page=${page + 1}&pageSize=${pageSize}`
+        );
+        const data = await response.json();
+
         setFiles(data.files);
+
         let numbers = Array.from(
           { length: data.pageInfo.totalPages },
-          (_, index) => index + 1
+          (_, index) => index
         );
         setTotalPages(numbers);
-        setPage(data.pageInfo.page);
-      })
-      .catch((error) => {
+      } catch (error) {
         setError(true);
         console.error("Error fetching files:", error);
-      })
-      .finally(() => {
+      } finally {
         setLoading(false);
-      });
+      }
+    };
+
+    fetchData();
   }, [page]);
 
   return (
@@ -48,7 +53,7 @@ const Home = () => {
                 Awards Gallery
               </h1>
               {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"> */}
-              <ul className="columns-1 md:columns-6 gap-8 list-none">
+              <ul className="columns-1 md:columns-5 list-none">
                 {files.map((file, index) => (
                   <li
                     className="p-2 break-inside-avoid"
@@ -72,13 +77,7 @@ const Home = () => {
             </div>
 
             <div>
-              <PageNums
-                Pages={totalPages}
-                active={page}
-                setActive={() => {
-                  setPage;
-                }}
-              />
+              <PageNums Pages={totalPages} active={page} setActive={setPage} />
             </div>
           </main>
         </div>
