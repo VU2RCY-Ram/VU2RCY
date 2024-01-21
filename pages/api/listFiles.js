@@ -1,19 +1,29 @@
-import fs from 'fs';
-import path from 'path';
+import fetch from 'node-fetch'; // Import the 'fetch' function
 
-export default function handler(req, res) {
-  // Define the path to the public folder
-  const publicPath = path.join(process.cwd(), 'public/awards/EPC');
+export default async function handler(req, res) {
+  try {
+    // GitHub repository and directory information
+    const owner = 'VU2RCY-Ram';
+    const repo = 'Awards';
+    const path = 'EPC';
 
-  // Read the contents of the public folder
-  fs.readdir(publicPath, (err, files) => {
-    if (err) {
-      console.error(err);
-      return res.status(500).json({ error: 'Error reading public folder' });
+    // GitHub API endpoint
+    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+
+    // Fetch data from the GitHub API
+    const response = await fetch(apiUrl);
+
+    if (!response.ok) {
+      // Handle the case where the GitHub API request failed
+      const errorData = await response.json();
+      throw new Error(`GitHub API request failed with status ${response.status}: ${errorData.message}`);
     }
 
-    // Filter out directories (if needed)
-    const fileNames = files.filter((file) => !fs.statSync(path.join(publicPath, file)).isDirectory());
+    // Parse the JSON response from GitHub
+    const filesData = await response.json();
+
+    // Extract file names from the API response
+    // const fileNames = filesData.map(file => file.name);
 
     // Pagination parameters
     const page = parseInt(req.query.page) || 1; // Current page, default to 1
@@ -24,7 +34,7 @@ export default function handler(req, res) {
     const endIndex = startIndex + pageSize;
 
     // Slice the array based on pagination parameters
-    const filesForPage = fileNames.slice(startIndex, endIndex);
+    const filesForPage = filesData.slice(startIndex, endIndex);
 
     // Send the list of files for the specified page as a response
     res.status(200).json({
@@ -32,9 +42,12 @@ export default function handler(req, res) {
       pageInfo: {
         page: page,
         pageSize: pageSize,
-        totalItems: fileNames.length,
-        totalPages: Math.ceil(fileNames.length / pageSize),
+        totalItems: filesData.length,
+        totalPages: Math.ceil(filesData.length / pageSize),
       },
     });
-  });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Error fetching data from GitHub API' });
+  }
 }

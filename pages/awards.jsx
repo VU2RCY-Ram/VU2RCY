@@ -43,12 +43,12 @@ const Home = () => {
                     key={index}
                     style={{ objectFit: "cover" }}
                   >
-                    <a href={`/awards/EPC/${file}`} target="_blank">
+                    <a href={file.download_url} target="_blank">
                       <div className="image-container w-full h-full">
                         <img
-                          src={`/awards/EPC/${file}`}
+                          src={file.download_url}
                           loading="lazy"
-                          alt={`${file}`}
+                          alt={file.name}
                           className="w-full h-auto"
                         />
                       </div>
