@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
-
+import { useState, useEffect } from "react";
 export default function Index() {
   const { systemTheme, theme, setTheme } = useTheme();
   const router = useRouter();
-  const shackEquipment = [
+  const shackEquipmentData = [
     {
       name: "HF",
       description:
@@ -55,6 +55,10 @@ export default function Index() {
       link: "antenna",
     },
   ];
+  const [shackEquipment, SetShackEquipment] = useState([]);
+  useEffect(() => {
+    SetShackEquipment(shackEquipmentData);
+  }, [theme]);
 
   return (
     <div className="px-1 sm:px-2 md:px-3 lg:mb-2 lg:px-3 mx-auto max-w-[90%]">
