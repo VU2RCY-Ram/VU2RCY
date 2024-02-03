@@ -54,7 +54,7 @@ const EquipmentsList = () => {
       metrics: [
         {
           displayName: "purpose",
-          description: "satilite communucation",
+          description: "satellite communication",
         },
         {
           displayName: "up converter",

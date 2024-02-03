@@ -30,7 +30,7 @@ const EquipmentsList = () => {
       metrics: [
         {
           displayName: "purpose",
-          description: "CW receiveing and transmission",
+          description: "CW receiving and transmission",
         },
         {
           displayName: "connection",
@@ -39,7 +39,7 @@ const EquipmentsList = () => {
         {
           displayName: "Used",
           description:
-            "for CW receiveing and transmission with software and keyboard",
+            "for CW receiving and transmission with software and keyboard",
         },
       ],
     },
@@ -50,7 +50,7 @@ const EquipmentsList = () => {
       metrics: [
         {
           displayName: "purpose",
-          description: "Multi-Mode Digital Voice communucation",
+          description: "Multi-Mode Digital Voice communication",
         },
         {
           displayName: "connection",
@@ -73,7 +73,7 @@ const EquipmentsList = () => {
       metrics: [
         {
           displayName: "purpose",
-          description: "Multi-Mode Digital Voice communucation",
+          description: "Multi-Mode Digital Voice communication",
         },
         {
           displayName: "connection",
@@ -96,7 +96,7 @@ const EquipmentsList = () => {
       metrics: [
         {
           displayName: "purpose",
-          description: "Power distubution for multi rig",
+          description: "Power distribution for multi rig",
         },
         {
           displayName: "input Voltage",
@@ -116,7 +116,7 @@ const EquipmentsList = () => {
         {
           displayName: "purpose",
           description:
-            "similtaniously using multiple raspberry-pi for various projects",
+            "simultaneously using multiple raspberry-pi for various projects",
         },
         {
           displayName: "used",

@@ -81,7 +81,7 @@ const AntennaList = () => {
       imgSrc: "/antenna/6mGpAntenna.jpg",
       name: "Ground plane",
       description: "6m ground plane antenna",
-      materials: "Aluminium",
+      materials: "Aluminum",
       metrics: {
         frequencyRange: "14 MHz - 30 MHz",
         resonantFrequency: "21 MHz",
@@ -171,7 +171,7 @@ const AntennaList = () => {
     },
     {
       imgSrc: "/antenna/uhf-VhfYagiSatelliteAntenna.jpg",
-      name: "Yagii",
+      name: "Yagi",
       description: "UHF & VHF Yagi Satellite Antenna",
       materials: "copper",
       metrics: {
