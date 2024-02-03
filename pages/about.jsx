@@ -21,7 +21,7 @@ export default function About() {
         <title>VU2RCY ✦ About</title>
         <link rel="icon" href="./logo.png" />
       </Head>
-      <main className="  max-w-screen ">
+      <main className="max-w-screen">
         <div className=" mx-auto pt-16 -pb-10 max-w-7xl">
           <div className=" mx-auto flex flex-col ">
             <h1

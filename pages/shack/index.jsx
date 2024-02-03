@@ -43,6 +43,12 @@ export default function Index() {
       link: "projects",
     },
     {
+      name: "My Equipment's",
+      description:
+        "Explore a diverse array of ham radios, each with a unique purpose in my shack. From HF to VHF/UHF, satellite to digital modes, delve into amateur radio with cutting-edge equipment.",
+      link: "my-equipments",
+    },
+    {
       name: "Antenna",
       description:
         "The antenna system, carefully tuned and optimized, is a key component. It maximizes signal performance, enabling successful communication across specific frequency bands and modes.",

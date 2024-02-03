@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
-import NotFoundImage from "../public/404.gif";
 import { useTheme } from "next-themes";
 import Head from "next/head";
 

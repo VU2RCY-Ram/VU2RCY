@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
+import EquipmentsList from "./EquipmentsList";
 
 export default function Index() {
   return (
@@ -8,7 +9,11 @@ export default function Index() {
         <title>APRS ✦ VU2RCY </title>
         <link rel="icon" href="./logo.png" />
       </Head>
-      <main className="  max-w-screen "></main>
+      <main className="  max-w-screen ">
+        <div className=" pt-24 container mx-auto p-4">
+          <EquipmentsList />
+        </div>
+      </main>
     </div>
   );
 }

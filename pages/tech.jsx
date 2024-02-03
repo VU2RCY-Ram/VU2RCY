@@ -140,7 +140,7 @@ export default function Tech() {
       title: "Text and Data",
       id: 14,
       main: "/icons/text-data-icon.svg",
-      desc: "Sending text and data using various digital modes, such as Radioteletype (RTTY), Packet Radio, PSK, and more.",
+      desc: "Sending text and data using various digital modes, such as Radio-tele-type (RTTY), Packet Radio, PSK, and more.",
       tag: "Text and Data",
       bg: "bg-green-50",
       text: "text-green-500",
