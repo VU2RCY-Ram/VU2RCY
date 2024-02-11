@@ -1,6 +1,6 @@
-import ProjectCard from "@/components/ProjectCard";
+import Accordion from "@/components/Accordion";
 import Head from "next/head";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Work() {
   useEffect(() => {
@@ -11,10 +11,23 @@ export default function Work() {
     // ]);
   }, []);
 
+  const [opacity, setOpacity] = useState(100);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.scrollY;
+      setOpacity(1 - (window.scrollY * 4) / window.innerHeight);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="px-10 sm:px-20 md:px-32 md:-mb-52 lg:mb-0 lg:px-60 mx-auto max-w-[75rem]">
       <Head>
-        <title>VU2RCY ✦ Work</title>
+        <title>VU2RCY ✦ Products</title>
         <link rel="icon" href="./logo.png" />
       </Head>
       <main className="min-h-screen max-w-screen">
@@ -23,13 +36,18 @@ export default function Work() {
             className={
               "selection:text-black/40 dark:selection:text-white/40 font-deca bg-gradient-to-tr from-teal-300 to-blue-500 bg-clip-text text-transparent items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
             }
+            style={{ opacity: `${opacity * 100}%` }}
           >
-            Works
+            Products
           </h2>
-          <p className="mt-8 max-w-xl text-center md:w-[70%] mx-auto text-sm font-normal md:text-base lg:text-lg mb-2 ">
-            It has been an absolute pleasure to dedicate my heart and soul to
-            Ham radio projects. Explore my accumulated knowledge and skills.
-            Spread the passion. 💖
+          <p
+            className="mt-8 max-w-xl text-center md:w-[70%] mx-auto text-sm font-normal md:text-base lg:text-lg mb-2"
+            style={{ opacity: `${opacity * 100}%` }}
+          >
+            Explore endless connections with our homebrewed ham radio
+            gear—crafted for savvy operators valuing quality and reliability.
+            Discover the trendiest way to enhance your communication experience
+            today 💖
           </p>
           <div className="select-none flex justify-center space-x-4 items-center mt-2 text-gray-400">
             <svg
@@ -54,7 +72,7 @@ export default function Work() {
           </div>
         </div>
         <div className="mt-20 mb-20">
-          <ProjectCard />
+          <Accordion />
         </div>
       </main>
     </div>
