@@ -36,6 +36,13 @@ export default function Index() {
       <main className="  max-w-screen ">
         <br />
         <br />
+        <h1
+          className={
+            "selection:text-black/40 dark:selection:text-white/40 font-deca bg-gradient-to-tr from-teal-300 to-blue-500 bg-clip-text text-transparent items-center mx-auto text-lg md:text-2xl lg:text-3xl xl:text-4xl font-bold"
+          }
+        >
+          Satellite
+        </h1>
         <Breadcrumb data={UrlData} />
         <br />
         {/*  */}

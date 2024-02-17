@@ -23,7 +23,10 @@ function Breadcrumb({ data }) {
         return (
           <React.Fragment key={ele.name}>
             {id > 0 && <span className="mx-1 ">&gt;</span>}
-            <Link href={ele.link} className="capitalize  hover:underline">
+            <Link
+              href={ele.link}
+              className="capitalize  hover:underline font-bold"
+            >
               {ele.name}
             </Link>
           </React.Fragment>

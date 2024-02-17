@@ -27,9 +27,9 @@ export default function Home() {
               <Image src={Avatar_Black} alt="vu2rcy" width="100" height="100" />
             )}
             <div className="flex flex-col ml-4">
-              <h2 className="font-bold sm:text-2xl md:text-2xl lg:text-4xl">
+              <h1 className="font-bold sm:text-2xl md:text-2xl lg:text-4xl">
                 M.G.RAMACHANDRAN
-              </h2>
+              </h1>
               <h4 className="text-gray-400 xl:font-bold sm:font-bold md:font-bold sm:text-xl md:text-xl lg:text-2xl">
                 Avid Ham Radio Operator 📻
               </h4>
