@@ -29,9 +29,9 @@ const Contact = () => {
           />
         </div>
         <div className="order-2 sm:w-[75%] md:w-[70%] lg:basis-[60%] flex flex-col content-around justify-around space-y-6 cirGradient bg-clip-text">
-          <h2 className="text-center tracking-normal bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-2xl md:text-3xl lg:text-4xl font-bold font-deca selection:text-gray-700 dark:selection:text-white/90 ">
+          <h3 className="text-center tracking-normal bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-2xl md:text-3xl lg:text-4xl font-bold font-deca selection:text-gray-700 dark:selection:text-white/90 ">
             Get in touch
-          </h2>
+          </h3>
           <p className="text-sm md:text-md font-normal lg:text-lg xl:text-xl ">
             In the captivating realm of Ham Radio, I&apos;ve delved into diverse
             fields. For more information, feel free to contact me!
