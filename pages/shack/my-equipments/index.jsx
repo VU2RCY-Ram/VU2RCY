@@ -1,5 +1,5 @@
 import Head from "next/head";
-import EquipmentsList from "./EquipmentsList";
+import EquipmentsList from "../../../components/shack/myEquipments/EquipmentsList";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export default function Index() {

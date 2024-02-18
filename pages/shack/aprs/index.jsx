@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
-import EquipmentsList from "./EquipmentsList";
+import EquipmentsList from "../../../components/shack/aprs/EquipmentsList";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export default function Index() {

@@ -17,7 +17,7 @@ const AntennaCard = ({ antenna, cardBackground }) => {
         >
           <div style={{ position: "relative" }}>
             <Image
-              alt={antenna?.name || "test"}
+              alt={antenna?.name || ""}
               src={antenna?.imgSrc || ""}
               quality={85}
               loading="lazy"

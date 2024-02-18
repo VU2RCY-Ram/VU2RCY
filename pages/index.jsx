@@ -26,8 +26,8 @@ export default function Home() {
             ) : (
               <Image src={Avatar_Black} alt="vu2rcy" width="100" height="100" />
             )}
-            <div className="flex flex-col ml-4">
-              <h1 className="font-bold sm:text-2xl md:text-2xl lg:text-4xl">
+            <div className="flex flex-col ml-2 sm:ml-4">
+              <h1 className="font-bold text-sm sm:text-xl md:text-2xl lg:text-4xl">
                 M.G.RAMACHANDRAN
               </h1>
               <h4 className="text-gray-400 xl:font-bold sm:font-bold md:font-bold sm:text-xl md:text-xl lg:text-2xl">
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="mt-28 mx-auto">
           <Experience />
         </div>
-        <div className="mt-28 mx-auto " id="contact">
+        <div className="mt-28 mx-auto ">
           <Contact />
         </div>
       </div>

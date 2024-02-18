@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
-import AntennaList from "./AntennaList";
+import AntennaList from "../../../components/shack/antenna/AntennaList";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export default function Index() {
