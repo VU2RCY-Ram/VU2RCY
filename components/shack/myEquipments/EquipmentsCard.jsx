@@ -1,7 +1,7 @@
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
-import { useState } from "react";
+import react, { useState } from "react";
 
 const EquipmentsCard = ({ data, cardBackground }) => {
   const [showDetails, setShowDetails] = useState(false);

@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*,
+html {
   scroll-behavior: smooth;
 }
 
@@ -97,14 +98,13 @@
     animation-delay: 7s;
   }
 
-.tech {
-  @apply hover:bg-gradient-to-tr hover:from-[#ff8080] hover:via-[#ff6b9e] hover:to-[#cc66cc] dark:hover:from-[#cae3e320] dark:hover:via-[#f2e3ff35] dark:hover:to-[#ffdccb30] focus:bg-gradient-to-tr focus:from-[#ff8080] focus:via-[#ff6b9e] focus:to-[#cc66cc];
-}
+  .tech {
+    @apply hover:bg-gradient-to-tr hover:from-[#ff8080] hover:via-[#ff6b9e] hover:to-[#cc66cc] dark:hover:from-[#cae3e320] dark:hover:via-[#f2e3ff35] dark:hover:to-[#ffdccb30] focus:bg-gradient-to-tr focus:from-[#ff8080] focus:via-[#ff6b9e] focus:to-[#cc66cc];
+  }
 
-.techWork {
-  @apply hover:bg-gradient-to-tr dark:hover:from-[#ebffff] dark:hover:via-[#f7edff] dark:hover:to-[#ffeae0] hover:from-[#ff8080] hover:via-[#ff6b9e] hover:to-[#cc66cc] focus:bg-gradient-to-tr focus:from-[#ff8080] focus:via-[#ff6b9e] focus:to-[#cc66cc];
-}
-
+  .techWork {
+    @apply hover:bg-gradient-to-tr dark:hover:from-[#ebffff] dark:hover:via-[#f7edff] dark:hover:to-[#ffeae0] hover:from-[#ff8080] hover:via-[#ff6b9e] hover:to-[#cc66cc] focus:bg-gradient-to-tr focus:from-[#ff8080] focus:via-[#ff6b9e] focus:to-[#cc66cc];
+  }
 
   .iconClip {
     -webkit-text-fill-color: transparent;
@@ -121,7 +121,9 @@
     z-index: -100;
     background-image: url("/header-gradient.svg"), url("/footer-gradient.svg");
     background-repeat: no-repeat;
-    background-position: center top, center bottom;
+    background-position:
+      center top,
+      center bottom;
     background-size: 1400px;
   }
 
@@ -134,19 +136,18 @@
     background-repeat: repeat;
   }
 
-    
   @keyframes gradient {
     0% {
       background-position: 0%;
     }
-    50%{
-        background-position: 50%;
+    50% {
+      background-position: 50%;
     }
     100% {
       background-position: 100%;
     }
   }
-  
+
   #texture {
     position: fixed;
     top: 0px;
@@ -162,7 +163,10 @@
   }
 
   .text-border {
-    text-shadow: -1px -1px 0 #6808c3, 2px -1px 0 #6808c3, -1px 2px 0 #6808c3,
+    text-shadow:
+      -1px -1px 0 #6808c3,
+      2px -1px 0 #6808c3,
+      -1px 2px 0 #6808c3,
       2px 2px 0 #6808c3;
   }
 
@@ -432,16 +436,14 @@
   }
 }
 
-.dark-404
-{
-background-image: url('/404.gif');
- filter: invert(1) blur(4px);
+.dark-404 {
+  background-image: url("/404.gif");
+  filter: invert(1) blur(4px);
   -webkit-filter: invert(1) blur(4px);
 }
 
-.light-404
-{
-background-image: url('/404.gif');
+.light-404 {
+  background-image: url("/404.gif");
   filter: blur(3px);
   -webkit-filter: blur(3px);
 }

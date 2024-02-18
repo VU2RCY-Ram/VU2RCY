@@ -3,7 +3,7 @@ import { useTheme } from "next-themes";
 import Head from "next/head";
 
 export default function NotFound() {
-  const { systemTheme, theme, setTheme } = useTheme();
+  const { theme } = useTheme();
   const [invertColor, setInvertColor] = useState();
 
   const [load, setLoad] = useState(false);

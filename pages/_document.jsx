@@ -48,7 +48,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          itemprop="image"
+          itemProp="image"
           content="https://vu2rcy.vercel.app/Banner.png"
         />
 

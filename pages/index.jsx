@@ -14,11 +14,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>VU2RCY</title>
+        <title> VU2RCY ✦ RAM </title>
         <link rel="icon" href="./logo.png" />
       </Head>
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
-        <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
+        <div className="lg:h-80 2xl:h-max max-w-[90rem] mx-auto">
           <Blob />
           <div className="flex flex-row justify-start items-center mt-20">
             {currentTheme === "dark" ? (
@@ -26,10 +26,10 @@ export default function Home() {
             ) : (
               <Image src={Avatar_Black} alt="vu2rcy" width="100" height="100" />
             )}
-            <div className="flex flex-col ml-4">
-              <h2 className="font-bold sm:text-2xl md:text-2xl lg:text-4xl">
+            <div className="flex flex-col ml-2 sm:ml-4">
+              <h1 className="font-bold text-sm sm:text-xl md:text-2xl lg:text-4xl">
                 M.G.RAMACHANDRAN
-              </h2>
+              </h1>
               <h4 className="text-gray-400 xl:font-bold sm:font-bold md:font-bold sm:text-xl md:text-xl lg:text-2xl">
                 Avid Ham Radio Operator 📻
               </h4>
