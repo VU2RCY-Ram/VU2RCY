@@ -51,7 +51,7 @@ export default function Home() {
         <div className="mt-28 mx-auto">
           <Experience />
         </div>
-        <div className="mt-28 mx-auto ">
+        <div className="mt-28 mx-auto " id="contact">
           <Contact />
         </div>
       </div>

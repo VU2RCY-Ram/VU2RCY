@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "@/components/Breadcrumb";
+import AprsIgateStationContent from "@/components/ProductsContents/aprs-igate-station-Content";
 
 function AprsIgateStation() {
   let UrlData = ["home", "products", "aprs-igate-station"];
@@ -22,7 +23,7 @@ function AprsIgateStation() {
           </h1>
           <Breadcrumb data={UrlData} />
           <br />
-          home content
+          <AprsIgateStationContent />
         </div>
       </main>
     </div>
