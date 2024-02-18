@@ -22,6 +22,7 @@ function AprsIgateStation() {
           </h1>
           <Breadcrumb data={UrlData} />
           <br />
+          home content
         </div>
       </main>
     </div>
