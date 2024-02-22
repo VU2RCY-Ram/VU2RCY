@@ -50,7 +50,7 @@ export default function PageNums({ active, setActive, Pages }) {
       <div className="flex items-center">
         <button
           disabled={active === 0}
-          className="p-3 py-2  rounded-md m-2 focus:outline-none "
+          className="p-1 md:p-3 py-2  rounded-md m-2 focus:outline-none "
           onClick={() => {
             setActive(0);
           }}
@@ -59,7 +59,7 @@ export default function PageNums({ active, setActive, Pages }) {
         </button>
         <button
           disabled={active === 0}
-          className="p-3 py-2  rounded-md focus:outline-none "
+          className="p-1 md:p-3 py-2  rounded-md focus:outline-none "
           onClick={() => {
             setActive(active - 1);
           }}
@@ -82,11 +82,12 @@ export default function PageNums({ active, setActive, Pages }) {
                   "border",
                   "rounded-md",
                   "cursor-pointer",
-                  "p-3",
+                  "p-1",
+                  "md:px-3",
                   "text-white",
                   "py-1",
                   { "bg-rose-800 text-white": active !== page },
-                  "m-2",
+                  "m-1",
                   { "bg-violet-900 text-white": active === page },
                 ])}
               >
@@ -96,7 +97,7 @@ export default function PageNums({ active, setActive, Pages }) {
           }
         })}
         <button
-          className=" p-3 py-2 rounded-md focus:outline-none "
+          className=" p-1 md:p-3 rounded-md focus:outline-none "
           disabled={active === Pages[Pages.length - 1]}
           onClick={() => {
             setActive(active + 1);
@@ -105,7 +106,7 @@ export default function PageNums({ active, setActive, Pages }) {
           <BsCaretRightFill />
         </button>
         <button
-          className=" p-3 py-2  rounded-md m-2 focus:outline-none "
+          className=" p-1 md:p-3 py-2  rounded-md m-2 focus:outline-none "
           disabled={active === Pages[Pages.length - 1]}
           onClick={() => {
             setActive(Pages[Pages.length - 1]);
