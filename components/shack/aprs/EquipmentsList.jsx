@@ -9,6 +9,7 @@ const EquipmentsList = () => {
       name: "APRS Weather Station",
       description: "Automatic Packet Reporting System Weather Station",
       metrics: [],
+      contactForImpedance: true,
     },
     {
       imgSrc: "/APRS/kenwoodTm-d7.jpg",

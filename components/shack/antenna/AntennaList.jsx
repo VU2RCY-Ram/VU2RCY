@@ -99,6 +99,7 @@ const AntennaList = () => {
           height: "1 meter",
         },
       },
+      contactForImpedance: true,
     },
     {
       imgSrc: "/antenna/hf6ElementBeam.jpg",
@@ -122,6 +123,7 @@ const AntennaList = () => {
           height: "1 meter",
         },
       },
+      contactForImpedance: true,
     },
     {
       imgSrc: "/antenna/qo-1006FeetDishAntenna.jpg",
