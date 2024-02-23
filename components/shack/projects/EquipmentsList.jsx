@@ -132,7 +132,7 @@ const EquipmentsList = () => {
           description: "Mobile/Monitor",
         },
       ],
-      contactForImpedance: false,
+      contactForImpedance: true,
     },
     {
       imgSrc: "/projects/uhfHandtAntenna.jpg",

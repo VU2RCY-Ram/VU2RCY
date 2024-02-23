@@ -8,20 +8,54 @@ const EquipmentsList = () => {
       imgSrc: "/APRS/aprsWeatherStation.jpg",
       name: "APRS Weather Station",
       description: "Automatic Packet Reporting System Weather Station",
-      metrics: [],
+      metrics: [
+        {
+          displayName: "purpose",
+          description: "Sending weather data to APRS server",
+        },
+        {
+          displayName: "Sensor",
+          description: "weather sensor",
+        },
+      ],
       contactForImpedance: true,
     },
     {
       imgSrc: "/APRS/kenwoodTm-d7.jpg",
       name: "Kenwood TM-D7",
-      description: "Radio Equipment",
-      metrics: [],
+      description: "144 / 430 MHz FM Dual Bander",
+      metrics: [
+        {
+          displayName: "purpose",
+          description: "APRS",
+        },
+
+        {
+          displayName: "Power output",
+          description: "6W",
+        },
+      ],
+      contactForImpedance: false,
     },
     {
       imgSrc: "/APRS/yaesu2600m+tnc.jpg",
       name: "Yaesu 2600M + TNC",
       description: "Yaesu 2600M with Terminal Node Controller",
-      metrics: [],
+      metrics: [
+        {
+          displayName: "purpose",
+          description: "APRS digipeater 144.390Mhz",
+        },
+        {
+          displayName: "Connectivity",
+          description: "Ethernet ",
+        },
+        {
+          displayName: "Power output",
+          description: "50W",
+        },
+      ],
+      contactForImpedance: false,
     },
   ];
 
