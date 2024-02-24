@@ -37,14 +37,14 @@ export default function Work() {
       description:
         "An APRS IGATE Weather Station combines the functionality of an APRS IGATE Station with weather monitoring capabilities. It receives and forwards APRS packets while also collecting and transmitting weather data, such as temperature, humidity, and atmospheric pressure, to APRS networks.",
       image: "./homebrew/cw-icon.jpg",
-      toUrl: "",
+      toUrl: "/aprs-igate-weather-station",
     },
     {
       title: "APRS tracker",
       description:
         "An APRS tracker is a device designed to broadcast its GPS location via the Automatic Packet Reporting System (APRS). It's commonly used in amateur radio and outdoor activities to provide real-time location updates, allowing users to track movement or assets remotely.",
       image: "./homebrew/cw-icon.jpg",
-      toUrl: "",
+      toUrl: "/aprs-tracker",
     },
     {
       title: "lora satellite ground station",

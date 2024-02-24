@@ -1,15 +1,15 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "@/components/Breadcrumb";
-import AprsIgateStationContent from "@/components/ProductsContents/aprs-igate-station-Content";
+import AprsTrackerContent from "@/components/ProductsContents/aprs-igate-weather-station-Content";
 
 function AprsIgateStation() {
-  let UrlData = ["home", "products", "aprs-igate-station"];
+  let UrlData = ["home", "products", "aprs-tracker"];
 
   return (
     <div className="px-8 sm:px-14 md:px-24 lg:px-30 lg:mb-12">
       <Head>
-        <title>HF ✦ Aprs IGATE Station </title>
+        <title>HF ✦ APRS Tracker </title>
         <link rel="icon" href="./logo.png" />
       </Head>
       <main className="  max-w-screen ">
@@ -19,11 +19,11 @@ function AprsIgateStation() {
               "selection:text-black/40 capitalize dark:selection:text-white/40 font-deca bg-gradient-to-tr from-teal-300 to-blue-500 bg-clip-text text-transparent items-center mx-auto text-lg md:text-2xl lg:text-3xl xl:text-4xl font-bold"
             }
           >
-            APRS IGATE Station
+            APRS Tracker
           </h1>
           <Breadcrumb data={UrlData} />
           <br />
-          <AprsIgateStationContent />
+          <AprsTrackerContent />
         </div>
       </main>
     </div>

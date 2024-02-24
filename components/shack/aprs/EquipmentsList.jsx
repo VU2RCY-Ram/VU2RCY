@@ -59,7 +59,7 @@ const EquipmentsList = () => {
     },
   ];
 
-  const { systemTheme, theme, setTheme } = useTheme();
+  const { theme } = useTheme();
   const [cardBackground, setCardBackground] = useState("display-none");
   const [load, setLoad] = useState(false);
   useEffect(() => {
