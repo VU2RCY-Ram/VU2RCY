@@ -106,10 +106,11 @@ export default function MMDVM() {
             </h3>
             <p className="mt-2">
               Embracing MMDVM technology amplifies the Ham radio experience.
-              Seamlessly integrating various modes, MMDVM's innovative design
-              and immense benefits open new horizons for global communication,
-              learning, and camaraderie. Explore its potential, enhance your
-              skills, and contribute to the vibrant Ham radio community.
+              Seamlessly integrating various modes, MMDVM&apos;s innovative
+              design and immense benefits open new horizons for global
+              communication, learning, and camaraderie. Explore its potential,
+              enhance your skills, and contribute to the vibrant Ham radio
+              community.
             </p>
           </div>
 

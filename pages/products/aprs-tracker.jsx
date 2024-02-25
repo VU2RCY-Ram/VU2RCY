@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "@/components/Breadcrumb";
-import AprsTrackerContent from "@/components/ProductsContents/aprs-igate-weather-station-Content";
+import AprsTrackerContent from "@/components/ProductsContents/aprs-tracker-Content";
 
 function AprsIgateStation() {
   let UrlData = ["home", "products", "aprs-tracker"];
