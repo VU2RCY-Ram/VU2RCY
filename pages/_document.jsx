@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Document() {
   return (
@@ -94,6 +95,7 @@ export default function Document() {
       <body className="back font-out mx-auto bg-[#ffffffb7] dark:bg-[#242424] overflow-x-hidden lg:transform-gpu ">
         <Main />
         <NextScript />
+        <SpeedInsights />
       </body>
     </Html>
   );
