@@ -36,14 +36,14 @@ export default function Work() {
       title: "APRS IGATE Weather Station",
       description:
         "An APRS IGATE Weather Station combines the functionality of an APRS IGATE Station with weather monitoring capabilities. It receives and forwards APRS packets while also collecting and transmitting weather data, such as temperature, humidity, and atmospheric pressure, to APRS networks.",
-      image: "./homebrew/cw-icon.jpg",
+      image: "./products/APRSIgateWeatherStation/APRSIgateWeatherStation.jpeg",
       toUrl: "/aprs-igate-weather-station",
     },
     {
       title: "APRS tracker",
       description:
         "An APRS tracker is a device designed to broadcast its GPS location via the Automatic Packet Reporting System (APRS). It's commonly used in amateur radio and outdoor activities to provide real-time location updates, allowing users to track movement or assets remotely.",
-      image: "./homebrew/cw-icon.jpg",
+      image: "./products/APRSTracker/APRS_tracker.jpg",
       toUrl: "/aprs-tracker",
     },
     {
@@ -78,8 +78,8 @@ export default function Work() {
       title: "MMDVM",
       description:
         "The Multi-Mode Digital Voice Modem (MMDVM) is a hardware and software solution for connecting various digital voice modes, such as DMR, D-STAR, and C4FM, to analog radio systems. It facilitates cross-mode communication and interoperability between different digital voice protocols, enhancing flexibility in amateur radio operations.",
-      image: "./homebrew/cw-icon.jpg",
-      toUrl: "",
+      image: "/projects/mmdvmblue.jpg",
+      toUrl: "/mmdvm",
     },
     {
       title: "Rig control cube [cat cable]",

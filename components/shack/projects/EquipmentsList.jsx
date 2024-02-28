@@ -46,7 +46,7 @@ const EquipmentsList = () => {
       contactForImpedance: true,
     },
     {
-      imgSrc: "/projects/mmdvm.jpg",
+      imgSrc: "/mmdvm.jpg",
       name: "MMDVM",
       description: "Multi-Mode Digital Voice Modem",
       metrics: [

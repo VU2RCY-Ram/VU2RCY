@@ -10,7 +10,7 @@ function Accordion({ data }) {
       {data.map((ele, id) => {
         return (
           <AccordionItem
-            toUrl={`/products/${ele.toUrl}`}
+            toUrl={ele.toUrl ? `/products/${ele.toUrl}` : ""}
             imageUrl={ele.image}
             key={id}
             id={id}
