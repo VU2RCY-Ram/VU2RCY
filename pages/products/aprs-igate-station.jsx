@@ -9,7 +9,7 @@ function AprsIgateStation() {
   return (
     <div className="px-8 sm:px-14 md:px-24 lg:px-30 lg:mb-12">
       <Head>
-        <title>HF ✦ VU2RCY </title>
+        <title>Products ✦ Aprs IGATE Station </title>
         <link rel="icon" href="./logo.png" />
       </Head>
       <main className="  max-w-screen ">
@@ -19,7 +19,7 @@ function AprsIgateStation() {
               "selection:text-black/40 capitalize dark:selection:text-white/40 font-deca bg-gradient-to-tr from-teal-300 to-blue-500 bg-clip-text text-transparent items-center mx-auto text-lg md:text-2xl lg:text-3xl xl:text-4xl font-bold"
             }
           >
-            aprs igate station
+            APRS IGATE Station
           </h1>
           <Breadcrumb data={UrlData} />
           <br />

@@ -22,6 +22,7 @@ const EquipmentsList = () => {
           description: "for digital mode and rig control with software",
         },
       ],
+      contactForImpedance: true,
     },
     {
       imgSrc: "/projects/cwInterfaceWithDb-9Connector.jpg",
@@ -42,9 +43,10 @@ const EquipmentsList = () => {
             "for CW receiving and transmission with software and keyboard",
         },
       ],
+      contactForImpedance: true,
     },
     {
-      imgSrc: "/projects/mmdvm.jpg",
+      imgSrc: "/mmdvm.jpg",
       name: "MMDVM",
       description: "Multi-Mode Digital Voice Modem",
       metrics: [
@@ -65,6 +67,7 @@ const EquipmentsList = () => {
           description: "VHF/UHF : 100mW",
         },
       ],
+      contactForImpedance: true,
     },
     {
       imgSrc: "/projects/mmdvmblue.jpg",
@@ -88,6 +91,7 @@ const EquipmentsList = () => {
           description: "VHF/UHF : 100mW",
         },
       ],
+      contactForImpedance: true,
     },
     {
       imgSrc: "/projects/powerSupply.jpg",
@@ -107,6 +111,7 @@ const EquipmentsList = () => {
           description: "13.8V 30A",
         },
       ],
+      contactForImpedance: false,
     },
     {
       imgSrc: "/projects/rpisetup.jpg",
@@ -127,6 +132,7 @@ const EquipmentsList = () => {
           description: "Mobile/Monitor",
         },
       ],
+      contactForImpedance: true,
     },
     {
       imgSrc: "/projects/uhfHandtAntenna.jpg",
@@ -138,6 +144,7 @@ const EquipmentsList = () => {
           description: "receiveing and transmiting to satellite with handy",
         },
       ],
+      contactForImpedance: true,
     },
     {
       imgSrc: "/projects/usrpmaster.jpg",
@@ -157,6 +164,7 @@ const EquipmentsList = () => {
           description: "Mobile with DV switch software / Monitor",
         },
       ],
+      contactForImpedance: true,
     },
     {
       imgSrc: "/projects/voltage&PowerReader.jpg",
@@ -168,6 +176,7 @@ const EquipmentsList = () => {
           description: "power connection for less than 10A instrument",
         },
       ],
+      contactForImpedance: false,
     },
   ];
 

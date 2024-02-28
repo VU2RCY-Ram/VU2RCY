@@ -30,28 +30,7 @@ export default function MMDVM() {
               Digital Mode
             </h4>
           </div>
-          {/* <div className="flex justify-center space-x-3 md:space-x-6 lg:space-x-8 items-center  my-4">
-            <div className="group border-purple-400 hover:bg-purple-400 hover:text-white hover:drop-shadow-2xl text-purple-500 rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-purple-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-purple-300 ">
-              <Link
-                href=""
-                target="_blank"
-                className="flex items-center font-normal lg:font-bold space-x-2 text-sm md:text-base"
-              >
-                <FiFileText className="dark:stroke-white stroke-purple-400 stroke-2 group-hover:stroke-white " />
-                <p>Live</p>
-              </Link>
-            </div>
-            <div className=" group border-blue-400 hover:bg-blue-400 text-blue-500 hover:text-white hover:drop-shadow-2xl rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-blue-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-blue-300">
-              <Link
-                href=""
-                target="_blank"
-                className="flex items-center font-normal lg:font-bold space-x-2 text-sm md:text-base  "
-              >
-                <FaGithub className=" dark:stroke-white stroke-blue-400 stroke-2 group-hover:stroke-white " />
-                <p>Code</p>
-              </Link>
-            </div>
-          </div> */}
+
           <div className="mx-auto flex flex-col">
             <h3 className="mt-10 only:mb-12 font-deca bg-gradient-to-br bg-clip-text selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-sm md:text-sm lg:text-md xl:text-lg">
               Introduction:
@@ -106,10 +85,11 @@ export default function MMDVM() {
             </h3>
             <p className="mt-2">
               Embracing MMDVM technology amplifies the Ham radio experience.
-              Seamlessly integrating various modes, MMDVM's innovative design
-              and immense benefits open new horizons for global communication,
-              learning, and camaraderie. Explore its potential, enhance your
-              skills, and contribute to the vibrant Ham radio community.
+              Seamlessly integrating various modes, MMDVM&apos;s innovative
+              design and immense benefits open new horizons for global
+              communication, learning, and camaraderie. Explore its potential,
+              enhance your skills, and contribute to the vibrant Ham radio
+              community.
             </p>
           </div>
 

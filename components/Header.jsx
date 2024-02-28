@@ -12,7 +12,7 @@ const Header = () => {
   let Links = [
     { name: "Work", link: "/work" },
     { name: "Shack", link: "/shack" },
-    { name: "Homebrew", link: "/homebrew " },
+    { name: "Homebrew", link: "/homebrew" },
     { name: "Products", link: "/products" },
     { name: "About", link: "/about" },
   ];

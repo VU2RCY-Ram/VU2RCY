@@ -19,7 +19,9 @@ const AccordionItem = ({ data, active, setActive, id, imageUrl, toUrl }) => {
     <div
       className="border border-purple-700 bg-[#10041438] rounded-md mb-4 shadow-2xl transition-all duration-300 ease-out"
       onClick={() => {
-        router.push(toUrl);
+        if (toUrl !== "") {
+          router.push(toUrl);
+        }
       }}
     >
       <div className="flex justify-between items-center p-2 px-4 cursor-pointer transition-all duration-300 ease-out">
