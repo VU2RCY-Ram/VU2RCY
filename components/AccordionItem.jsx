@@ -55,7 +55,7 @@ const AccordionItem = ({ data, active, setActive, id, imageUrl, toUrl }) => {
                 alt={data.title}
               />
             </div>
-            <div class="md:w-1/2 p-2">{data.description}</div>
+            <div class="md:w-1/2 p-2 text-justify">{data.description}</div>
           </div>
         </div>
       </div>

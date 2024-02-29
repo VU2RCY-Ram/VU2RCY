@@ -3,22 +3,22 @@ function AprsTrackerContent() {
   return (
     <div>
       <div className="flex flex-col md:flex-row ">
-        <div class="md:w-4/12  p-2 ">
+        <div className="md:w-4/12  p-2 ">
           <img
             className="rounded-md"
             src="/products/APRSTracker/APRS_trackers_multiple.jpeg"
             alt="APRS trackers"
           />
         </div>
-        <div class="md:w-8/12 p-2">
+        <div className="md:w-8/12 p-2">
           <h3 className="text-center only:mb-12 font-deca bg-gradient-to-br bg-clip-text selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-sm md:text-sm lg:text-md xl:text-lg">
             Introduction:
           </h3>
-          <p className="mt-2">
+          <p className="mt-2 text-justify">
             APRS Tracker is a versatile device tailored for ham radio
             enthusiasts, it enhances tracking capabilities by seamlessly
             transmitting location data to the{" "}
-            <span className="underline">
+            <span className="underline text-blue-500 hover:underline cursor-pointer">
               <a href="https://aprs.fi" title="Live APRS map" target="_blank">
                 APRS website
               </a>
@@ -72,7 +72,7 @@ function AprsTrackerContent() {
           <h3 className="text-center mt-10 only:mb-12 font-deca bg-gradient-to-br bg-clip-text selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-sm md:text-sm lg:text-md xl:text-lg">
             In Conclusion:
           </h3>
-          <p className="mt-2">
+          <p className="mt-2 text-justify">
             With its compact design and efficient functionality, the APRS
             Tracker emerges as an indispensable tool for amateur radio
             enthusiasts, offering a range of features tailored to enhance
@@ -80,7 +80,6 @@ function AprsTrackerContent() {
           </p>
         </div>
       </div>
-      <div></div>
     </div>
   );
 }

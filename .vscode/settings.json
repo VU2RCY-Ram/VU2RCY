@@ -19,6 +19,8 @@
     "MMDVM",
     "napi",
     "nextjs",
+    "opensearch",
+    "opensearchdescription",
     "opentelemetry",
     "prerendered",
     "RTTY",

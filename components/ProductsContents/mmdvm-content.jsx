@@ -3,12 +3,12 @@ import React from "react";
 function MMDVMContent() {
   return (
     <div className=" ">
-      <div className="flex justify-center">
-        <div class="w-10/12 p-2">
+      <div className="">
+        <div className=" p-2">
           <h3 className="text-center only:mb-12 font-deca bg-gradient-to-br bg-clip-text selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-sm md:text-sm lg:text-md xl:text-lg">
             Introduction:
           </h3>
-          <p className="mt-2">
+          <p className="mt-2 text-justify">
             MMDVM (Multi-Mode Digital Voice Modem) is a groundbreaking
             technology that bridges the gap between diverse digital
             communication modes. As an avid Ham radio enthusiast, understanding
@@ -46,7 +46,7 @@ function MMDVMContent() {
           <h3 className="text-center mt-10 only:mb-12 font-deca bg-gradient-to-br bg-clip-text selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-sm md:text-sm lg:text-md xl:text-lg">
             In Conclusion:
           </h3>
-          <p className="mt-2">
+          <p className="mt-2 text-justify">
             Embracing MMDVM technology amplifies the Ham radio experience.
             Seamlessly integrating various modes, MMDVM&apos;s innovative design
             and immense benefits open new horizons for global communication,
@@ -55,14 +55,13 @@ function MMDVMContent() {
           </p>
         </div>
       </div>
-      <div class="p-2 flex justify-center ">
+      <div className="p-2 flex justify-center ">
         <img
           className="rounded-md w-80 "
           src="/projects/mmdvm.jpg"
           alt="MMDVM"
         />
       </div>
-      <div></div>
     </div>
   );
 }
