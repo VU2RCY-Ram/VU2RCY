@@ -40,10 +40,23 @@ function AprsIgateWeatherStationContent() {
           </h3>
           <ul className="list-disc pl-6 mt-2 font-normal">
             <li>
-              <b>Comprehensive Weather Insights: </b> Transmitting telemetry
-              data including temperature, humidity, and air pressure to the APRS
-              website, the I-Gate Weather Station provides comprehensive weather
-              insights for amateur radio enthusiasts.
+              <b>
+                Comprehensive{" "}
+                <span className="underline text-blue-500 hover:underline cursor-pointer">
+                  <a
+                    href="https://aprs.fi/weather/a/VU2RCY-2"
+                    title="APRS weather data at vu2rcy's shack"
+                    target="_blank"
+                  >
+                    Weather Insights
+                  </a>
+                </span>
+                :{" "}
+              </b>
+              Transmitting telemetry data including temperature, humidity, and
+              air pressure to the APRS website, the I-Gate Weather Station
+              provides comprehensive weather insights for amateur radio
+              enthusiasts.
             </li>
             <li>
               <b>Real-time Status Updates:</b> Users can easily monitor
@@ -56,10 +69,23 @@ function AprsIgateWeatherStationContent() {
               seamlessly into their setups without sacrificing valuable space.
             </li>
             <li>
-              <b>Enhanced Visibility: </b> The I-Gate Weather Station updates
-              your callsign and integrates a weather station logo (Wx logo) on
-              the APRS website, enhancing your station&apos;s visibility and
-              recognition within the amateur radio community.
+              <b>
+                {" "}
+                <span className="underline text-blue-500 hover:underline cursor-pointer">
+                  <a
+                    href="https://aprs.fi/#!call=a%2FVU2RCY-2&timerange=3600&tail=3600"
+                    title="vu2rcy's APRS weather station"
+                    target="_blank"
+                  >
+                    Enhanced Visibility
+                  </a>
+                </span>
+                :{" "}
+              </b>{" "}
+              The I-Gate Weather Station updates your callsign and integrates a
+              weather station logo (Wx logo) on the APRS website, enhancing your
+              station&apos;s visibility and recognition within the amateur radio
+              community.
             </li>
             <li>
               <b>Versatility:</b> Beyond its primary function as a weather
