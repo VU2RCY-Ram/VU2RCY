@@ -43,18 +43,21 @@ const AccordionItem = ({ data, active, setActive, id, imageUrl, toUrl }) => {
       </div>
       <div
         className={`overflow-hidden cursor-pointer transition-all duration-300 
-        ${isOpen ? "max-h-96" : " max-h-0"}
-        `}
+  ${isOpen ? "max-h-[5000px]" : "max-h-0"}
+  `}
       >
         <div className="p-4 pb-5 border-t border-purple-700 ">
-          <div class="flex flex-col md:flex-row">
-            <div class="md:w-1/2 rounded-sm p-2">
-              <img
-                src={imageUrl}
-                class=" w-full rounded-lg md:max-w-none md:h-auto"
-                alt={data.title}
-              />
-            </div>
+          <div class="flex flex-col md:flex-row justify-center">
+            {imageUrl !== "" && (
+              <div class="md:w-1/2 rounded-sm p-2">
+                <img
+                  src={imageUrl}
+                  class=" w-full rounded-lg md:max-w-none md:h-auto"
+                  alt={data.title}
+                />
+              </div>
+            )}
+
             <div class="md:w-1/2 p-2 text-justify">{data.description}</div>
           </div>
         </div>
