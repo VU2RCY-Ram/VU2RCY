@@ -1,15 +1,15 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "@/components/Breadcrumb";
-import MMDVMContent from "@/components/ProductsContents/mmdvm-content";
+import LoraContent from "@/components/ProductsContents/lora-Content";
 
-function MMDVM() {
-  let UrlData = ["home", "products", "mmdvm"];
+function Lora() {
+  let UrlData = ["home", "products", "Lora"];
 
   return (
     <div className="px-8 sm:px-14 md:px-24 lg:px-30 lg:mb-12">
       <Head>
-        <title>Products ✦ MMDVM </title>
+        <title>Products ✦ Lora </title>
         <link rel="icon" href="./logo.png" />
       </Head>
       <main className="  max-w-screen ">
@@ -19,15 +19,15 @@ function MMDVM() {
               "selection:text-black/40 capitalize dark:selection:text-white/40 font-deca bg-gradient-to-tr from-teal-300 to-blue-500 bg-clip-text text-transparent items-center mx-auto text-lg md:text-2xl lg:text-3xl xl:text-4xl font-bold"
             }
           >
-            MMDVM
+            Lora
           </h1>
           <Breadcrumb data={UrlData} />
           <br />
-          <MMDVMContent />
+          <LoraContent />
         </div>
       </main>
     </div>
   );
 }
 
-export default MMDVM;
+export default Lora;

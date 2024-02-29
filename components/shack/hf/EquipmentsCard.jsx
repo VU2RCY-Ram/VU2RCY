@@ -1,8 +1,8 @@
+import ContactForImpedance from "@/components/ContactForImpedance";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
 import { useState } from "react";
-import { BsWhatsapp } from "react-icons/bs";
 
 const EquipmentsCard = ({ data, cardBackground }) => {
   const [showDetails, setShowDetails] = useState(false);
@@ -64,19 +64,7 @@ const EquipmentsCard = ({ data, cardBackground }) => {
                   </div>
                 );
               })}
-              {data.contactForImpedance && (
-                <a
-                  href="https://wa.me/7388407388"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" flex align-middle items-center font-jak sm:text-lg md:text-xl space-x-1 w-max p-2 font-extrabold"
-                >
-                  <BsWhatsapp className=" dark:text-[#ff339c] text-fuchsia-700 h-3 w-3 md:h-4 md:w-4 " />
-                  <h5 className=" dark:text-[#ff339c] text-fuchsia-700">
-                    Contact For Impedance
-                  </h5>
-                </a>
-              )}
+              {data.contactForImpedance && <ContactForImpedance />}
             </div>
           </CardContent>
         </div>

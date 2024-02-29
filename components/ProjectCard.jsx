@@ -9,18 +9,19 @@ const ProjectCard = () => {
       id: 1,
       image: mmdvm,
       title: "MMDVM",
-      description: "Enables versatile communication across digital amateur radio networks.",
+      description:
+        "Enables versatile communication across digital amateur radio networks.",
       link: "/work/mmdvm",
       target: "_self",
     },
-    {
-      id: 2,
-      image: XLX,
-      title: "XLX",
-      description: "XLX: Enabling Multi-Protocol Ham Communication",
-      link: "http://xlx146-india.ddns.net/",
-      target: "_blank",
-    },
+    // {
+    //   id: 2,
+    //   image: XLX,
+    //   title: "XLX",
+    //   description: "XLX: Enabling Multi-Protocol Ham Communication",
+    //   link: "http://xlx146-india.ddns.net/",
+    //   target: "_blank",
+    // },
   ];
 
   return (

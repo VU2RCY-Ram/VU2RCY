@@ -7,7 +7,7 @@ export default function Index() {
   let UrlData = ["home", "shack", "aprs"];
 
   return (
-    <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
+    <div className="px-8 sm:px-14 md:px-24 lg:px-30 lg:mb-12">
       <Head>
         <title>APRS ✦ VU2RCY </title>
         <link rel="icon" href="./logo.png" />

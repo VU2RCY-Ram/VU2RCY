@@ -3,6 +3,7 @@ import Head from "next/head";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import mmdvm from "../../public/mmdvm.jpg";
+import ContactForImpedance from "@/components/ContactForImpedance";
 
 export default function MMDVM() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -100,6 +101,10 @@ export default function MMDVM() {
             width="max"
             className="drop-shadow-2xl mt-10"
           />
+
+          <div className="flex justify-center">
+            <ContactForImpedance />
+          </div>
         </div>
       </main>
     </div>
