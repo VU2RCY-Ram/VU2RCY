@@ -42,7 +42,7 @@ const Contact = () => {
               className=" text-[0.7rem] md:text-[0.85rem]  lg:text-base flex flex-wrap justify-around align-middle text-center tracking-normal bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-2xl md:text-3xl font-bold font-deca selection:text-gray-700 dark:selection:text-white/90 "
             >
               <a
-                href="https://wa.me/9481242272"
+                href="https://wa.me/7388407388"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" flex align-middle items-center font-jak sm:text-lg md:text-xl space-x-1 w-max p-2 font-extrabold"

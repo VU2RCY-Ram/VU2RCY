@@ -15,20 +15,17 @@ export default function Document() {
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://vu2rcy.vercel.app" />
+        <meta property="og:url" content="https://vu2rcy.com" />
         <meta property="og:title" content="VU2RCY" />
         <meta
           property="og:description"
           content="Dedicated ham radio enthusiast"
         />
-        <meta
-          property="og:image"
-          content="https://vu2rcy.vercel.app/Banner.png"
-        />
+        <meta property="og:image" content="https://vu2rcy.com/Banner.png" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://vu2rcy.vercel.app" />
+        <meta property="twitter:url" content="https://vu2rcy.com" />
         <meta property="twitter:title" content="VU2RCY" />
         <meta
           property="twitter:description"
@@ -36,7 +33,7 @@ export default function Document() {
         />
         <meta
           property="twitter:image"
-          content="https://vu2rcy.vercel.app/Banner.png"
+          content="https://vu2rcy.com/Banner.png"
         />
 
         {/* whatsapp */}
@@ -49,7 +46,7 @@ export default function Document() {
         <meta
           property="og:image"
           itemProp="image"
-          content="https://vu2rcy.vercel.app/Banner.png"
+          content="https://vu2rcy.com/Banner.png"
         />
 
         {/* canonical links */}
