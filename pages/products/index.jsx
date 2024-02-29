@@ -46,13 +46,19 @@ export default function Work() {
       toUrl: "/aprs-tracker",
     },
     {
+      title: "MMDVM",
+      description:
+        "The Multi-Mode Digital Voice Modem (MMDVM) is a hardware and software solution for connecting various digital voice modes, such as DMR, D-STAR, and C4FM, to analog radio systems. It facilitates cross-mode communication and interoperability between different digital voice protocols, enhancing flexibility in amateur radio operations.",
+      image: "/projects/mmdvmblue.jpg",
+      toUrl: "/mmdvm",
+    },
+    {
       title: "lora satellite ground station",
       description:
         "A LoRa satellite ground station is a facility equipped to communicate with LoRa satellites. It facilitates two-way communication between ground-based LoRa devices and satellites in orbit, enabling long-range, low-power data transmission for applications such as IoT connectivity and remote sensing.",
       image: "/products/lora/lora_water_proof.jpeg",
-      toUrl: "",
+      toUrl: "/lora",
     },
-
     {
       title: "Network transceiver",
       description:
@@ -60,13 +66,12 @@ export default function Work() {
       image: "/my_equipments/networkTransceiver.jpg",
       toUrl: "",
     },
-
     {
-      title: "MMDVM",
+      title: "Digiface pro",
       description:
-        "The Multi-Mode Digital Voice Modem (MMDVM) is a hardware and software solution for connecting various digital voice modes, such as DMR, D-STAR, and C4FM, to analog radio systems. It facilitates cross-mode communication and interoperability between different digital voice protocols, enhancing flexibility in amateur radio operations.",
-      image: "/projects/mmdvmblue.jpg",
-      toUrl: "/mmdvm",
+        "The Digiface Pro, a versatile equipment designed for ham radio enthusiasts. This device boasts digital, CW, and CAT indicators, alongside multiple connectivity options including CW, CAT, PC-mic, PC-speaker, speaker to transceiver (SP-TRX), COM port, and three USB ports, enhancing flexibility and compatibility for seamless integration with various peripherals.",
+      image: "/products/DigiFace/DigiFaceProFront.jpg",
+      toUrl: "",
     },
     {
       title: "Rig control cube [cat cable]",
@@ -86,13 +91,6 @@ export default function Work() {
       title: "Lora APRS IGaTE Station",
       description:
         "A LoRa APRS IGATE Station integrates LoRa technology with APRS functionality, serving as a gateway between LoRa devices and APRS networks. It enables the transmission of LoRa data packets to APRS infrastructure, extending the reach of LoRa-based applications and enhancing network interoperability.",
-      image: "",
-      toUrl: "",
-    },
-    {
-      title: "Digiface pro",
-      description:
-        "The Digiface Pro is a professional audio interface designed for high-performance recording and playback tasks. It offers a range of connectivity options, low-latency operation, and advanced features tailored to professional audio production environments, making it ideal for studio recording, live sound, and broadcast applications.",
       image: "",
       toUrl: "",
     },

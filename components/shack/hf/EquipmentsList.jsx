@@ -47,33 +47,33 @@ const EquipmentsList = () => {
         },
       ],
     },
-    {
-      imgSrc: "/hf/icomic-706mk2g.jpg",
-      name: "Icom IC-706",
-      description: "HF/VHF/UHF All-Mode Transceiver",
-      metrics: [
-        {
-          displayName: "purpose",
-          description: "satellite communication",
-        },
-        {
-          displayName: "up converter",
-          description: "dx patrol",
-        },
-        {
-          displayName: "amplifier",
-          description: "home made amplifier",
-        },
-        {
-          displayName: "QO-100 antenna",
-          description: "6ft dish with modified LNB",
-        },
-        {
-          displayName: "using with",
-          description: "analog and digiface pro for all digital mode",
-        },
-      ],
-    },
+    // {
+    //   imgSrc: "/hf/icomic-706mk2g.jpg",
+    //   name: "Icom IC-706",
+    //   description: "HF/VHF/UHF All-Mode Transceiver",
+    //   metrics: [
+    //     {
+    //       displayName: "purpose",
+    //       description: "satellite communication",
+    //     },
+    //     {
+    //       displayName: "up converter",
+    //       description: "dx patrol",
+    //     },
+    //     {
+    //       displayName: "amplifier",
+    //       description: "home made amplifier",
+    //     },
+    //     {
+    //       displayName: "QO-100 antenna",
+    //       description: "6ft dish with modified LNB",
+    //     },
+    //     {
+    //       displayName: "using with",
+    //       description: "analog and digiface pro for all digital mode",
+    //     },
+    //   ],
+    // },
     {
       imgSrc: "/hf/icomic-718hfallmodetransceiver.jpg",
       name: "Icom IC-718",

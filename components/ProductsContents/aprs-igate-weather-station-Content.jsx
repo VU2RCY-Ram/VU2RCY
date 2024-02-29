@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForImpedance from "../ContactForImpedance";
 
 function AprsIgateWeatherStationContent() {
   return (
@@ -115,6 +116,11 @@ function AprsIgateWeatherStationContent() {
           src="/products/APRSIgateWeatherStation/APRSIgateWeatherStation.jpeg"
           alt="MMDVM"
         />
+        <br />
+      </div>
+      <div className="p-2 flex justify-center ">
+        <br />
+        <ContactForImpedance />
       </div>
     </div>
   );

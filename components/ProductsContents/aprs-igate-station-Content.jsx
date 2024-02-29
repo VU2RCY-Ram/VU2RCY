@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForImpedance from "../ContactForImpedance";
 
 function AprsIgateStationContent() {
   return (
@@ -63,13 +64,14 @@ function AprsIgateStationContent() {
           </p>
         </div>
       </div>
-      {/* <div className="p-2 flex justify-center ">
-        <img
+      <div className="p-2 flex justify-center ">
+        {/* <img
           className="rounded-md w-80 "
           src="/projects/mmdvm.jpg"
           alt="MMDVM"
-        />
-      </div> */}
+        /> */}
+        <ContactForImpedance />
+      </div>
     </div>
   );
 }

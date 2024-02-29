@@ -7,36 +7,6 @@ export default function Index() {
   const router = useRouter();
   const shackEquipmentData = [
     {
-      name: "HF",
-      description:
-        "My HF setup, featuring ICOM IC-706 MK2G, IC-718, and IC-700 transceivers, is the core of my shack. Enhanced by Digiface Pro, it excels in long-distance DX contacts and amateur radio contests",
-      link: "hf",
-    },
-    {
-      name: "VHF/UHF",
-      description:
-        "Resulting from years of refinement, my VHF/UHF gear includes KENWOOD TMV-71V and MMDVM transceivers. It excels in local communication, satellite tracking, and VHF/UHF contests.",
-      link: "vhf-uhf",
-    },
-    {
-      name: "Satellite",
-      description:
-        "My satellite setup comprises specialized tracking software, high-gain antennas, and a dedicated transceiver, enabling communication with amateur radio satellites and the ISS.",
-      link: "satellite",
-    },
-    {
-      name: "APRS",
-      description:
-        "My APRS setup includes a custom station with a TNC, GPS unit, and VHF transceiver. It's vital for real-time location-based data sharing within the amateur radio community.",
-      link: "aprs",
-    },
-    {
-      name: "Digital Modes",
-      description:
-        "Explore diverse digital modes in ham radio for projects, enhancing communication in my shack. From FT8 to PSK31, discover innovative ways to connect with the world.",
-      link: "digitalMode",
-    },
-    {
       name: "My Projects",
       description:
         "Embark on a journey of experimentation and creativity with various technologies and tools for general projects for my shack. Exploring new possibilities and bring ideas to life.",
@@ -53,6 +23,36 @@ export default function Index() {
       description:
         "The antenna system, carefully tuned and optimized, is a key component. It maximizes signal performance, enabling successful communication across specific frequency bands and modes.",
       link: "antenna",
+    },
+    {
+      name: "VHF/UHF",
+      description:
+        "Resulting from years of refinement, my VHF/UHF gear includes KENWOOD TMV-71V and MMDVM transceivers. It excels in local communication, satellite tracking, and VHF/UHF contests.",
+      link: "vhf-uhf",
+    },
+    {
+      name: "HF",
+      description:
+        "My HF setup, featuring ICOM IC-706 MK2G, IC-718, and IC-700 transceivers, is the core of my shack. Enhanced by Digiface Pro, it excels in long-distance DX contacts and amateur radio contests",
+      link: "hf",
+    },
+    {
+      name: "APRS",
+      description:
+        "My APRS setup includes a custom station with a TNC, GPS unit, and VHF transceiver. It's vital for real-time location-based data sharing within the amateur radio community.",
+      link: "aprs",
+    },
+    {
+      name: "Satellite",
+      description:
+        "My satellite setup comprises specialized tracking software, high-gain antennas, and a dedicated transceiver, enabling communication with amateur radio satellites and the ISS.",
+      link: "satellite",
+    },
+    {
+      name: "Digital Modes",
+      description:
+        "Explore diverse digital modes in ham radio for projects, enhancing communication in my shack. From FT8 to PSK31, discover innovative ways to connect with the world.",
+      link: "digitalMode",
     },
   ];
   const [shackEquipment, SetShackEquipment] = useState([]);
@@ -88,7 +88,7 @@ export default function Index() {
                   <h2 className="mx-auto text-center font-deca font-bold text-2xl dark:text-purple-500 text-white">
                     {equipment.name}
                   </h2>
-                  <p className="font-normal sm:text-[0.95rem] md:text-base text-center">
+                  <p className="font-normal sm:text-[0.95rem] md:text-base text-justify">
                     {equipment.description}
                   </p>
                 </article>

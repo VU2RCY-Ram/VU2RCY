@@ -2,6 +2,7 @@
 import Head from "next/head";
 import EquipmentsList from "../../../components/shack/digitalMode/EquipmentsList";
 import Breadcrumb from "@/components/Breadcrumb";
+import WIP from "@/components/WIP";
 
 export default function Index() {
   let UrlData = ["home", "shack", "digitalMode"];
@@ -23,7 +24,8 @@ export default function Index() {
           </h1>
           <Breadcrumb data={UrlData} />
           <br />
-          <EquipmentsList />
+          <WIP />
+          {/* <EquipmentsList /> */}
         </div>
       </main>
     </div>
