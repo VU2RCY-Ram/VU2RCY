@@ -9,7 +9,7 @@ export default function Document() {
     >
       <Head>
         {/* Primary Meta Tags */}
-        <title>VU2RCY - Ram: Ham Radio Enthusiast</title>
+        {/* <title>VU2RCY - Ram: Ham Radio Enthusiast</title> */}
         <meta
           name="description"
           content="Explore the world of ham radio with Ram, a devoted ham radio operator embracing cutting-edge technologies since 1988. Discover insights, experiences, and projects in amateur radio."
