@@ -9,11 +9,19 @@ export default function Document() {
     >
       <Head>
         {/* Primary Meta Tags */}
-        {/* <title>VU2RCY - Ram: Ham Radio Enthusiast</title> */}
         <meta
           name="description"
-          content="Explore the world of ham radio with Ram, a devoted ham radio operator embracing cutting-edge technologies since 1988. Discover insights, experiences, and projects in amateur radio."
+          content="Explore ham radio with Ram, an enthusiast embracing technology since 1988. Discover insights, experiences, and projects."
         />
+        <meta
+          name="keywords"
+          content="M.G.Ramachandran, Ham Radio, Amateur RadioVU3MGR, VU2RCY, Bands, Exploration, Satellite, Communication, HF, 1.8MHz , 28MHz, VHF, 50MHz, 144Mhz, UHF, 435MHz, MMDVM, APRS, RMS, PACTOE-1, PACTOE-2, PACTOE-3, Homebrew, Equipment, Shack"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="author" content="M.G.Ramachandran(VU2RCY)" />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
@@ -24,7 +32,7 @@ export default function Document() {
         />
         <meta
           property="og:description"
-          content="Explore the world of ham radio with Ram, a devoted ham radio operator embracing cutting-edge technologies since 1988. Discover insights, experiences, and projects in amateur radio."
+          content="Explore ham radio with Ram, an enthusiast embracing technology since 1988. Discover insights, experiences, and projects."
         />
         <meta property="og:image" content="https://vu2rcy.com/Banner.png" />
 
@@ -37,7 +45,7 @@ export default function Document() {
         />
         <meta
           property="twitter:description"
-          content="Explore the world of ham radio with Ram, a devoted ham radio operator embracing cutting-edge technologies since 1988. Discover insights, experiences, and projects in amateur radio."
+          content="Explore ham radio with Ram, an enthusiast embracing technology since 1988. Discover insights, experiences, and projects."
         />
         <meta
           property="twitter:image"
@@ -52,7 +60,7 @@ export default function Document() {
         />
         <meta
           property="og:description"
-          content="Explore the world of ham radio with Ram, a devoted ham radio operator embracing cutting-edge technologies since 1988. Discover insights, experiences, and projects in amateur radio."
+          content="Explore ham radio with Ram, an enthusiast embracing technology since 1988. Discover insights, experiences, and projects."
         />
         <meta
           property="og:image"
