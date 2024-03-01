@@ -15,7 +15,7 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="M.G.Ramachandran, Ham Radio, Amateur RadioVU3MGR, VU2RCY, Bands, Exploration, Satellite, Communication, HF, 1.8MHz , 28MHz, VHF, 50MHz, 144Mhz, UHF, 435MHz, MMDVM, APRS, RMS, PACTOE-1, PACTOE-2, PACTOE-3, Homebrew, Equipment, Shack"
+          content="M.G.Ramachandran, Ham Radio, Amateur Radio, VU3MGR, VU2RCY, Satellite, HF , VHF, UHF, MMDVM, APRS, RMS, Homebrew, Equipment, Shack"
         />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
