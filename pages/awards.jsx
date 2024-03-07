@@ -44,7 +44,7 @@ const Home = () => {
       {files && (
         <div className="px-1 sm:px-2 md:px-3  lg:px-6  lg:mb-12 mx-auto">
           <Head>
-            <title>VU2RCY ✦ Awards</title>
+            <title>VU2RCY - Awards</title>
             <link rel="icon" href="./logo.png" />
           </Head>
           <main className="max-w-screen">

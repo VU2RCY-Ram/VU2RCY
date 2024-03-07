@@ -12,7 +12,7 @@ export default function MMDVM() {
   return (
     <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
       <Head>
-        <title>work ✦ MMDVM </title>
+        <title>work - MMDVM </title>
         <link rel="icon" href="./logo.png" />
       </Head>
       <main className="  max-w-screen ">

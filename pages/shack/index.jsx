@@ -63,7 +63,7 @@ export default function Index() {
   return (
     <div className="px-1 sm:px-2 md:px-3 lg:mb-2 lg:px-3 mx-auto max-w-[90%]">
       <Head>
-        <title>shack ✦ VU2RCY </title>
+        <title>shack - VU2RCY </title>
         <link rel="icon" href="./logo.png" />
       </Head>
       <main className="max-w-screen">
