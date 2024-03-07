@@ -13,13 +13,16 @@ export default function Document() {
           name="description"
           content="Explore ham radio with Ram, an enthusiast embracing technology since 1988. Discover insights, experiences, and projects."
         />
-        <meta name="google-site-verification" content="I4WXqTL_TQEn1hlHplJjAnrTT0SVz0GNzxk-PWQBn5Q" />
+        <meta
+          name="google-site-verification"
+          content="I4WXqTL_TQEn1hlHplJjAnrTT0SVz0GNzxk-PWQBn5Q"
+        />
         <meta
           name="keywords"
           content="M.G.Ramachandran, Ham Radio, Amateur Radio, VU3MGR, VU2RCY, Satellite, HF , VHF, UHF, MMDVM, APRS, RMS, Homebrew, Equipment, Shack"
         />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="M.G.Ramachandran(VU2RCY)" />
