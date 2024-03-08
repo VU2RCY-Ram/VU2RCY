@@ -13,10 +13,7 @@ export default function Document() {
           name="description"
           content="Explore ham radio with Ram, an enthusiast embracing technology since 1988. Discover insights, experiences, and projects."
         />
-        <meta
-          name="google-site-verification"
-          content="xaQd664uxnA1HsCj7rA1l8B6UoFhxD4sQDuCB1c_u7Y"
-        />
+        <meta name="google-site-verification" content="9Ea5q_QyyDIDJlHRpDoi2buGhg-nAPOmID2U73VgMK0" />
         <meta
           name="keywords"
           content="ram,ham,radio,VU2RCY,satellite,HF,VHF,UHF,MMDVM,APRS,RMS,homebrew,equipment,shack,qrz,qth,qsl,cq,qrzcq,logbook,antenna"
