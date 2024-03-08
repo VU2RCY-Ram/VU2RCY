@@ -15,7 +15,7 @@ export default function Document() {
         />
         <meta
           name="google-site-verification"
-          content="I4WXqTL_TQEn1hlHplJjAnrTT0SVz0GNzxk-PWQBn5Q"
+          content="xaQd664uxnA1HsCj7rA1l8B6UoFhxD4sQDuCB1c_u7Y"
         />
         <meta
           name="keywords"
