@@ -51,7 +51,7 @@ const Contact = () => {
                 <h5 className="text-transparent dark:text-[#ff339c]">VU2RCY</h5>
               </a>
               <a
-                href="https://www.twitter.com/Ramachandran"
+                href="https://twitter.com/vu2rcy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" flex align-middle items-center font-jak font-bold space-x-1 w-max p-2"
