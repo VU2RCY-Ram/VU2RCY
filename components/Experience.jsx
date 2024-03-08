@@ -3,30 +3,6 @@ import Link from "next/link";
 const Experience = () => {
   return (
     <div className=" lg:mt-8 flex flex-col justify-start space-y-12 mx-auto items-center md:mt-20 ">
-      <div className="bg-purple-300 w-36 h-36 rounded-lg p-4 select-none ">
-        <div className="bg-purple-400  h-28 w-28 flex-col justify-end mx-auto blur-none z-40 items-center text-center text-xl text-white font-medium rounded-lg p-2">
-          <div className="basis-[60%] text-5xl font-black ">
-            <h2 className="text-border mt-1 ">
-              {new Date().getUTCFullYear() - 1988}
-            </h2>
-          </div>
-          <div className="basis-[30%] text-xs mt-3 font-bold">
-            Years of Experience
-          </div>
-        </div>
-      </div>
-      <div className="w-[80%] mx-auto">
-        <p className="text-center max-w-2xl mx-auto tracking-normal leading-5 text-base sm:text-[1.1rem] lg:text-lg text-justify">
-          Over my {new Date().getUTCFullYear() - 1988} years in Ham Radio,
-          I&apos;ve explored diverse bands and modes, delving deep into its
-          captivating realm. From 1.8MHz on 160M to 28MHz on 10M, HF has been my
-          playground. VHF offered thrilling opportunities at 50MHz and 144MHz,
-          while UHF presented challenges at 435MHz with my homebrewed MMDVM
-          hotspot. APRS on 144.390MHz and RMS HF systems like PACTOE-1,
-          PACTOE-2, and PACTOE-3 enriched my experience, along with the marvel
-          of satellite communications. Ham radio never ceases to amaze me!
-        </p>
-      </div>
       <div className="flex flex-col relative space-y-16 md:space-y-10 lg:space-y-8 items-center">
         <div className="select-none flex justify-center space-x-4 items-center mt-2 text-gray-400">
           <svg

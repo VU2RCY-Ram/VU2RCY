@@ -4,7 +4,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 import Rectangle from "../public/Rectangle.svg";
 
-const Contact = () => {
+const Contact = ({ ContactDescription }) => {
   return (
     <div
       className="h-full xl:px-12 p-6 sm:p-8 md:px-10 lg:pt-10 bg-gradient-to-tr dark:from-[#f6ebeb20] dark:to-[#fff8ec20] from-[#f6ebeb90] to-[#fff8ec60] 
@@ -32,10 +32,17 @@ const Contact = () => {
           <h3 className="text-center tracking-normal bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-2xl md:text-3xl lg:text-4xl font-bold font-deca selection:text-gray-700 dark:selection:text-white/90 ">
             Get in touch
           </h3>
-          <p className="text-sm md:text-md font-normal lg:text-lg xl:text-xl text-justify ">
-            In the captivating realm of Ham Radio, I&apos;ve delved into diverse
-            fields. For more information, feel free to contact me!
-          </p>
+          {ContactDescription ? (
+            <p className="text-sm md:text-md font-normal lg:text-lg xl:text-xl text-justify ">
+              {ContactDescription}
+            </p>
+          ) : (
+            <p className="text-sm md:text-md font-normal lg:text-lg xl:text-xl text-justify ">
+              In the captivating realm of Ham Radio, I&apos;ve delved into
+              diverse fields. For more information, feel free to contact me!
+            </p>
+          )}
+
           <div>
             <div
               style={{ marginTop: "-8%" }}
