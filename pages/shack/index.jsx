@@ -97,7 +97,14 @@ export default function Index() {
               </div>
             ))}
           </div>
-          <Image src={shackImage} alt="shack photo" className="rounded" />
+          <a
+            target="_blank"
+            href="./vu2rcyShack.jpg"
+            rel="noopener noreferrer"
+            className="cursor-pointer"
+          >
+            <Image src={shackImage} alt="shack photo" className="rounded" />
+          </a>
         </div>
       </main>
     </div>
