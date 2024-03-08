@@ -14,7 +14,7 @@ export default function Work() {
   return (
     <div className="px-10 sm:px-20 md:px-32 md:-mb-52 lg:mb-0 lg:px-60 mx-auto max-w-[75rem]">
       <Head>
-        <title>VU2RCY ✦ Work</title>
+        <title>VU2RCY - Work</title>
         <link rel="icon" href="./logo.png" />
       </Head>
       <main className="min-h-screen max-w-screen">

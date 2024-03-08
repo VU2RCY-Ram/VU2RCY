@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <div className="px-8 sm:px-14 md:px-24 lg:px-30 lg:mb-12">
       <Head>
-        <title>HF ✦ VU2RCY </title>
+        <title>HF - VU2RCY </title>
         <link rel="icon" href="./logo.png" />
       </Head>
       <main className="  max-w-screen ">
