@@ -19,14 +19,13 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="M.G.Ramachandran, Ham Radio, Amateur Radio, VU3MGR, VU2RCY, Satellite, HF , VHF, UHF, MMDVM, APRS, RMS, Homebrew, Equipment, Shack"
+          content="ram,ham,radio,VU2RCY,satellite,HF,VHF,UHF,MMDVM,APRS,RMS,homebrew,equipment,shack,qrz,qth,qsl,cq,qrzcq,logbook,antenna"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="M.G.Ramachandran(VU2RCY)" />
-
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://vu2rcy.com" />
@@ -39,7 +38,6 @@ export default function Document() {
           content="Explore ham radio with Ram, an enthusiast embracing technology since 1988. Discover insights, experiences, and projects."
         />
         <meta property="og:image" content="https://vu2rcy.com/Banner.png" />
-
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://vu2rcy.com" />
@@ -55,7 +53,6 @@ export default function Document() {
           property="twitter:image"
           content="https://vu2rcy.com/Banner.png"
         />
-
         {/* WhatsApp */}
         <meta property="og:type" content="website" />
         <meta
@@ -71,7 +68,6 @@ export default function Document() {
           itemProp="image"
           content="https://vu2rcy.com/Banner.png"
         />
-
         {/* Canonical links */}
         <link rel="canonical" href="https://vu2rcy.com" />
         <link
@@ -80,7 +76,12 @@ export default function Document() {
           type="application/opensearchdescription+xml"
           title="VU2RCY - Ram: Ham Radio Enthusiast"
         />
-
+        {/*  */}
+        <link rel="icon" sizes="16x16" href="./logo_16x16.png" />
+        <link rel="icon" sizes="32x32" href="./logo_32x32.png" />
+        <link rel="icon" sizes="96x96" href="./logo_96x96.png" />
+        <link rel="icon" sizes="192x192" href="./logo_192x192.png" />
+        {/*  */}
         {/* Preconnect */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -88,7 +89,6 @@ export default function Document() {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-
         {/* Fonts */}
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
