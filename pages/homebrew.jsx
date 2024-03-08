@@ -22,15 +22,15 @@ export default function Tech() {
       bg: "bg-blue-50",
       text: "text-blue-500",
     },
-    {
-      title: "Continuous Wave (CW)",
-      id: 1,
-      main: "/homebrew/cw-icon.jpg",
-      desc: "Modulated continuous wave (MCW) often used by repeaters for identification, including frequency-shift keying (FSK) for noisy conditions.",
-      tag: "Continuous Wave",
-      bg: "bg-yellow-50",
-      text: "text-yellow-500",
-    },
+    // {
+    //   title: "Continuous Wave (CW)",
+    //   id: 1,
+    //   main: "/homebrew/cw-icon.jpg",
+    //   desc: "Modulated continuous wave (MCW) often used by repeaters for identification, including frequency-shift keying (FSK) for noisy conditions.",
+    //   tag: "Continuous Wave",
+    //   bg: "bg-yellow-50",
+    //   text: "text-yellow-500",
+    // },
     {
       title: "XLX Reflectors",
       id: 4,
@@ -133,7 +133,7 @@ export default function Tech() {
           >
             <HiOutlineArrowLongLeft className=" w-5 h-3 sm:w-6 sm:h-4 md:w-8 md:h-5 lg:w-10 lg:h-6 stroke-[3] group-hover:fill-[#00bdbd]" />
           </button>
-          <div class="bg-gradient-to-tr from-[#ff8080] via-[#ff6b9e] to-[#cc66cc] dark:from-[#dbfefe25] dark:via-[#f9f2ff10] dark:to-[#fff2ec20] flex p-2 py-2 sm:p-3 md:p-4 lg:p-6 rounded-xl sm:rounded-[0.8rem] md:rounded-[1.2rem] lg:rounded-[1.6rem] mx-auto items-center justify-center space-x-2 sm:space-x-3 md:space-x-4 h-24 md:h-max lg:space-x-6 transition-all duration-700 ease-linear">
+          <div className="bg-gradient-to-tr from-[#ff8080] via-[#ff6b9e] to-[#cc66cc] dark:from-[#dbfefe25] dark:via-[#f9f2ff10] dark:to-[#fff2ec20] flex p-2 py-2 sm:p-3 md:p-4 lg:p-6 rounded-xl sm:rounded-[0.8rem] md:rounded-[1.2rem] lg:rounded-[1.6rem] mx-auto items-center justify-center space-x-2 sm:space-x-3 md:space-x-4 h-24 md:h-max lg:space-x-6 transition-all duration-700 ease-linear">
             <div className="basis-[30%] lg:basis-[25%] h-16 w-12 sm:h-20 sm:w-20 md:h-28 md:w-28 lg:h-32 lg:w-32 rounded-2xl ">
               <div className="flex mx-auto rounded-2xl relative w-full h-full bg-[transparent]">
                 <Image

@@ -22,7 +22,7 @@ export default function Document() {
           content="M.G.Ramachandran, Ham Radio, Amateur Radio, VU3MGR, VU2RCY, Satellite, HF , VHF, UHF, MMDVM, APRS, RMS, Homebrew, Equipment, Shack"
         />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="M.G.Ramachandran(VU2RCY)" />
