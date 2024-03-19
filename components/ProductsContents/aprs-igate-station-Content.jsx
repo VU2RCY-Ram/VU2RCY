@@ -67,9 +67,13 @@ function AprsIgateStationContent() {
       <div className="p-2 flex justify-center ">
         {/* <img
           className="rounded-md w-80 "
-          src="/projects/mmdvm.jpg"
+          src="/products/APRSIgateAndDigipeater/APRSIgateAndDigipeater.jpeg"
           alt="MMDVM"
         /> */}
+        <br />
+      </div>
+      <div className="p-2 flex justify-center ">
+        <br />
         <ContactForImpedance />
       </div>
     </div>
