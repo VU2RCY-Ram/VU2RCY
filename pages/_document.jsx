@@ -78,6 +78,7 @@ export default function Document() {
           title="VU2RCY - Ram: Ham Radio Enthusiast"
         />
         {/*  */}
+        <link rel="icon" type="image/x-icon" href="./logo_16x16.png"></link>
         <link rel="icon" sizes="16x16" href="./logo_16x16.png" />
         <link rel="icon" sizes="32x32" href="./logo_32x32.png" />
         <link rel="icon" sizes="96x96" href="./logo_96x96.png" />
