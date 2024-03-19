@@ -74,6 +74,13 @@ export default function Work() {
       toUrl: "",
     },
     {
+      title: "Lora APRS IGaTE Station",
+      description:
+        "A LoRa APRS IGATE Station integrates LoRa technology with APRS functionality, serving as a gateway between LoRa devices and APRS networks. It enables the transmission of LoRa data packets to APRS infrastructure, extending the reach of LoRa-based applications and enhancing network interoperability.",
+      image: "./products/LoraAprsIGateStation/LoraAprsIGateStation.jpeg",
+      toUrl: "",
+    },
+    {
       title: "Rig control cube [cat cable]",
       description:
         "A rig control cube, connected via a CAT (Computer-Aided Transceiver) cable, is a device used in amateur radio setups to interface with transceivers for remote control and monitoring. It allows users to adjust parameters such as frequency, mode, and power output from a computer or external controller.",
@@ -84,13 +91,6 @@ export default function Work() {
       title: "Cw interface [serial/usb]",
       description:
         "A CW (Continuous Wave) interface, available in both serial and USB configurations, facilitates Morse code communication in amateur radio operations. It connects Morse code input devices, such as paddles or keys, to transceivers or computers, enabling the transmission and reception of Morse code signals.",
-      image: "",
-      toUrl: "",
-    },
-    {
-      title: "Lora APRS IGaTE Station",
-      description:
-        "A LoRa APRS IGATE Station integrates LoRa technology with APRS functionality, serving as a gateway between LoRa devices and APRS networks. It enables the transmission of LoRa data packets to APRS infrastructure, extending the reach of LoRa-based applications and enhancing network interoperability.",
       image: "",
       toUrl: "",
     },
