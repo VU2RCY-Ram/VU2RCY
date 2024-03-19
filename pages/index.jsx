@@ -6,6 +6,7 @@ import Avatar_White from "../public/VU2RCY.jpg";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Head from "next/head";
+import HorizontalLine from "@/components/HorizontalLine";
 
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -49,6 +50,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-28 mx-auto">
+          <HorizontalLine />
           <Experience />
         </div>
         <div className="mt-28 mx-auto ">
