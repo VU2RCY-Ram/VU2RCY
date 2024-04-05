@@ -1,25 +1,28 @@
-import fetch from 'node-fetch'; // Import the 'fetch' function
+import fetch from "node-fetch"; // Import the 'fetch' function
 
 export default async function handler(req, res) {
   try {
     // GitHub repository and directory information
-    const owner = 'VU2RCY-Ram';
-    const repo = 'Awards';
-    const path = 'EPC';
-const x = process.env.GITHUB_API_KEY
+    const owner = "VU2RCY-Ram";
+    const repo = "Awards";
+    const path = "EPC";
+    const x = process.env.GITHUB_API_KEY;
     // GitHub API endpoint
     const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
 
     // Fetch data from the GitHub API
-    const response = await fetch(apiUrl,{
-  headers: {
-    Authorization: `token ${x}`,
-  }});
+    const response = await fetch(apiUrl, {
+      headers: {
+        Authorization: `token ${x}`,
+      },
+    });
 
     if (!response.ok) {
       // Handle the case where the GitHub API request failed
       const errorData = await response.json();
-      throw new Error(`GitHub API request failed with status ${response.status}: ${errorData.message}`);
+      throw new Error(
+        `GitHub API request failed with status ${response.status}: ${errorData.message}`
+      );
     }
 
     // Parse the JSON response from GitHub
@@ -51,6 +54,6 @@ const x = process.env.GITHUB_API_KEY
     });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Error fetching data from GitHub API' });
+    res.status(500).json({ error: "Error fetching data from GitHub API" });
   }
 }

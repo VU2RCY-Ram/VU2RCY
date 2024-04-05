@@ -3,6 +3,7 @@ import { TfiEmail, TfiTwitterAlt, wh } from "react-icons/tfi";
 import { BsWhatsapp } from "react-icons/bs";
 
 import Rectangle from "../public/Rectangle.svg";
+import Link from "next/link";
 
 const Contact = ({ ContactDescription }) => {
   return (
@@ -68,15 +69,13 @@ const Contact = ({ ContactDescription }) => {
                   Twitter / X
                 </h5>
               </a>
-              <a
-                href="mailto:vu2rcy+social@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/contact"
                 className=" flex align-middle items-center font-jak font-bold space-x-1 w-max p-2"
               >
                 <TfiEmail className="text-[#CA6298] dark:text-[#ff339c] h-3 w-3 md:h-4 md:w-4 " />
                 <h5 className="text-transparent dark:text-[#ff339c]">Mail</h5>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
