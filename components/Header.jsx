@@ -75,7 +75,7 @@ const Header = () => {
         className={`${
           isScrolled &&
           "bg-opacity-[0.7] shadow-md drop-shadow-lg backdrop-blur-3xl "
-        } font-medium duration-500 bg-opacity-90 transition-all linear z-40 dark:text-white w-[90%] sm:w-[75%] md:w-[90%] lg:w-[70%] xl:w-[60%] max-w-6xl mx-auto  bg-white dark:bg-[#353535] drop-shadow-xs backdrop-blur-3xl top-4 sticky rounded-2xl `}
+        } font-medium duration-500 bg-opacity-90 transition-all linear z-40 dark:text-white w-[90%] sm:w-[75%] md:w-[95%] lg:w-[80%] xl:w-[70%] max-w-6xl mx-auto  bg-white dark:bg-[#353535] drop-shadow-xs backdrop-blur-3xl top-4 sticky rounded-2xl `}
       >
         <div className="flex justify-between md:space-x-10 lg:space-x-12 xl:space-x-16 md:flex items-center place-items-center md:justify-center py-3 md:px-10 px-8">
           <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
